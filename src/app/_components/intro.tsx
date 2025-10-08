@@ -8,7 +8,7 @@ export function Intro() {
         <h2 className="text-2xl md:text-3xl font-light text-gray-600 mb-6">
           Soins énergétiques à Lausanne et environs
         </h2>
-        <h3 className="text-xl md:text-2xl font-medium text-blue-600">
+        <h3 className="text-xl md:text-2xl font-medium" style={{color: '#007BA7'}}>
           Retrouver l'équilibre entre corps et esprit
         </h3>
       </div>
