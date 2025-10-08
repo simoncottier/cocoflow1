@@ -5,10 +5,10 @@ export function Intro() {
         <h1 className="text-4xl md:text-6xl font-bold tracking-tighter leading-tight mb-4">
           🕊️ Cocoflow
         </h1>
-        <h2 className="text-2xl md:text-3xl font-light text-gray-600 dark:text-gray-300 mb-6">
+        <h2 className="text-2xl md:text-3xl font-light text-gray-600 mb-6">
           Soins énergétiques à Lausanne et environs
         </h2>
-        <h3 className="text-xl md:text-2xl font-medium text-blue-600 dark:text-blue-400">
+        <h3 className="text-xl md:text-2xl font-medium text-blue-600">
           Retrouver l'équilibre entre corps et esprit
         </h3>
       </div>

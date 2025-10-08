@@ -14,26 +14,26 @@ export function Services() {
 
       {/* Services */}
       <div className="mb-12">
-        <h2 className="text-3xl font-bold mb-8 text-green-600 dark:text-green-400">🌿 Mes prestations</h2>
+        <h2 className="text-3xl font-bold mb-8 text-green-600">🌿 Mes prestations</h2>
         
         <div className="grid md:grid-cols-3 gap-8 mb-8">
-          <div className="bg-white dark:bg-slate-800 p-6 rounded-lg shadow-lg">
-            <h3 className="text-xl font-semibold mb-4 text-blue-600 dark:text-blue-400">Soin énergétique global</h3>
-            <p className="text-gray-700 dark:text-gray-300">
+          <div className="bg-white p-6 rounded-lg shadow-lg">
+            <h3 className="text-xl font-semibold mb-4 text-blue-600">Soin énergétique global</h3>
+            <p className="text-gray-700">
               Harmonisation des centres énergétiques (chakras), rééquilibrage et recentrage.
             </p>
           </div>
           
-          <div className="bg-white dark:bg-slate-800 p-6 rounded-lg shadow-lg">
-            <h3 className="text-xl font-semibold mb-4 text-blue-600 dark:text-blue-400">Libération émotionnelle</h3>
-            <p className="text-gray-700 dark:text-gray-300">
+          <div className="bg-white p-6 rounded-lg shadow-lg">
+            <h3 className="text-xl font-semibold mb-4 text-blue-600">Libération émotionnelle</h3>
+            <p className="text-gray-700">
               Accompagnement des blocages liés au stress, à la fatigue ou aux émotions accumulées.
             </p>
           </div>
           
-          <div className="bg-white dark:bg-slate-800 p-6 rounded-lg shadow-lg">
-            <h3 className="text-xl font-semibold mb-4 text-blue-600 dark:text-blue-400">Soin à distance</h3>
-            <p className="text-gray-700 dark:text-gray-300">
+          <div className="bg-white p-6 rounded-lg shadow-lg">
+            <h3 className="text-xl font-semibold mb-4 text-blue-600">Soin à distance</h3>
+            <p className="text-gray-700">
               Rééquilibrage énergétique pour ceux qui ne peuvent pas se déplacer, avec la même intention et efficacité.
             </p>
           </div>
@@ -41,8 +41,8 @@ export function Services() {
       </div>
 
       {/* Session Details */}
-      <div className="mb-12 bg-pink-50 dark:bg-slate-800 p-8 rounded-lg">
-        <h2 className="text-3xl font-bold mb-6 text-pink-600 dark:text-pink-400">🌸 Déroulement d'une séance</h2>
+      <div className="mb-12 bg-pink-50 p-8 rounded-lg">
+        <h2 className="text-3xl font-bold mb-6 text-pink-600">🌸 Déroulement d'une séance</h2>
         <div className="space-y-4 text-lg">
           <p>
             Après un court échange pour comprendre tes besoins du moment, j'effectue un soin adapté à ton état énergétique.
@@ -50,7 +50,7 @@ export function Services() {
           <p>
             La séance se déroule dans un cadre calme et bienveillant, propice au lâcher-prise.
           </p>
-          <p className="font-semibold text-pink-600 dark:text-pink-400">
+          <p className="font-semibold text-pink-600">
             Durée moyenne : 60 minutes.
           </p>
         </div>
@@ -70,25 +70,25 @@ export function Services() {
       </div>
 
       {/* Contact */}
-      <div className="bg-blue-50 dark:bg-slate-800 p-8 rounded-lg">
-        <h2 className="text-3xl font-bold mb-6 text-blue-600 dark:text-blue-400">💬 Prendre rendez-vous</h2>
+      <div className="bg-blue-50 p-8 rounded-lg">
+        <h2 className="text-3xl font-bold mb-6 text-blue-600">💬 Prendre rendez-vous</h2>
         <p className="text-lg mb-6">
           Contacte-moi pour un premier échange ou pour planifier une séance :
         </p>
         <div className="space-y-3 text-lg">
           <p className="flex items-center">
             <span className="mr-3">📞</span>
-            <a href="tel:+41790000000" className="text-blue-600 dark:text-blue-400 hover:underline">
+            <a href="tel:+41790000000" className="text-blue-600 hover:underline">
               +41 79 000 00 00
             </a>
           </p>
           <p className="flex items-center">
             <span className="mr-3">📧</span>
-            <a href="mailto:contact@cocoflow.ch" className="text-blue-600 dark:text-blue-400 hover:underline">
+            <a href="mailto:contact@cocoflow.ch" className="text-blue-600 hover:underline">
               contact@cocoflow.ch
             </a>
           </p>
-          <p className="flex items-center mt-4 font-semibold text-gray-700 dark:text-gray-300">
+          <p className="flex items-center mt-4 font-semibold text-gray-700">
             <span className="mr-3">📍</span>
             Lausanne – Canton de Vaud
           </p>
