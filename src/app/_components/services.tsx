@@ -2,7 +2,7 @@ export function Services() {
   return (
     <section className="mb-16">
       {/* Introduction */}
-      <div className="mb-12 text-lg leading-relaxed">
+      <div className="mb-12 text-lg leading-relaxed text-gray-100">
         <p className="mb-6">
           Chez Cocoflow, je propose des soins énergétiques personnalisés destinés à rétablir l'harmonie intérieure, 
           libérer les tensions physiques et émotionnelles, et favoriser un mieux-être global.
@@ -14,7 +14,7 @@ export function Services() {
 
       {/* Services */}
       <div className="mb-12">
-        <h2 className="text-3xl font-bold mb-8" style={{color: '#007BA7'}}>🌿 Mes prestations</h2>
+        <h2 className="text-3xl font-bold mb-8 text-white">🌿 Mes prestations</h2>
         
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div className="bg-white p-6 rounded-lg shadow-lg">
@@ -43,7 +43,7 @@ export function Services() {
       {/* Session Details */}
       <div className="mb-12 bg-white p-8 rounded-lg shadow-lg border-2" style={{borderColor: '#007BA7'}}>
         <h2 className="text-3xl font-bold mb-6" style={{color: '#007BA7'}}>🌸 Déroulement d'une séance</h2>
-        <div className="space-y-4 text-lg">
+        <div className="space-y-4 text-lg text-gray-800">
           <p>
             Après un court échange pour comprendre tes besoins du moment, j'effectue un soin adapté à ton état énergétique.
           </p>
@@ -58,8 +58,8 @@ export function Services() {
 
       {/* Location */}
       <div className="mb-12">
-        <h2 className="text-3xl font-bold mb-6">📍 Où me trouver</h2>
-        <div className="text-lg space-y-4">
+        <h2 className="text-3xl font-bold mb-6 text-white">📍 Où me trouver</h2>
+        <div className="text-lg space-y-4 text-gray-100">
           <p>
             Je propose mes soins à Lausanne et dans la région, sur rendez-vous uniquement.
           </p>
@@ -72,7 +72,7 @@ export function Services() {
       {/* Contact */}
       <div className="bg-white p-8 rounded-lg shadow-lg border-2" style={{borderColor: '#007BA7'}}>
         <h2 className="text-3xl font-bold mb-6" style={{color: '#007BA7'}}>💬 Prendre rendez-vous</h2>
-        <p className="text-lg mb-6">
+        <p className="text-lg mb-6 text-gray-800">
           Contacte-moi pour un premier échange ou pour planifier une séance :
         </p>
         <div className="space-y-3 text-lg">
@@ -88,7 +88,7 @@ export function Services() {
               contact@cocoflow.ch
             </a>
           </p>
-          <p className="flex items-center mt-4 font-semibold text-gray-700">
+          <p className="flex items-center mt-4 font-semibold text-gray-800">
             <span className="mr-3">📍</span>
             Lausanne – Canton de Vaud
           </p>
