@@ -3,7 +3,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import cn from "classnames";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import { SpeedInsightsPanel } from "@vercel/speed-insights/panel";
 import { Analytics } from "@vercel/analytics/react";
 
 import "./globals.css";
