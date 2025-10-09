@@ -36,7 +36,7 @@ export function Sidebar({ activeSection, onSectionChange }: SidebarProps) {
         className={`fixed left-0 top-0 h-full w-64 transform transition-transform duration-300 ease-in-out z-40 border-r-2 ${
           isOpen ? 'translate-x-0' : '-translate-x-full'
         } lg:translate-x-0`}
-        style={{ backgroundColor: '#0f1b2e', borderRightColor: '#007BA7' }}
+        style={{ backgroundColor: '#071531', borderRightColor: '#007BA7' }}
       >
         <div className="p-6">
           {/* Logo/Brand */}
