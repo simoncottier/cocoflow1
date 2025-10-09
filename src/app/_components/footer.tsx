@@ -16,10 +16,10 @@ export function Footer() {
           
           <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8 mb-8">
             <a 
-              href="tel:+41790000000" 
+              href="tel:+41782592246" 
               className="flex items-center text-blue-600 hover:underline text-lg"
             >
-              📞 +41 79 000 00 00
+              📞 078 259 22 46
             </a>
             <a 
               href="mailto:contact@cocoflow.ch" 

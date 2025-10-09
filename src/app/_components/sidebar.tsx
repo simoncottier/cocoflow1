@@ -15,6 +15,7 @@ export function Sidebar({ activeSection, onSectionChange }: SidebarProps) {
     { id: 'parcours', label: 'Mon parcours', icon: '' },
     { id: 'soins-tarifs', label: 'Soins et tarifs', icon: '' },
     { id: 'ressources', label: 'Mes ressources', icon: '' },
+    { id: 'contact', label: 'Contact', icon: '' },
   ];
 
   return (
@@ -78,10 +79,10 @@ export function Sidebar({ activeSection, onSectionChange }: SidebarProps) {
           <div className="absolute bottom-6 left-6 right-6">
             <div className="text-center space-y-2">
               <a
-                href="tel:+41790000000"
+                href="tel:+41782592246"
                 className="block text-sm text-blue-300 hover:text-white transition-colors"
               >
-+41 79 000 00 00
+078 259 22 46
               </a>
               <a
                 href="mailto:contact@cocoflow.ch"

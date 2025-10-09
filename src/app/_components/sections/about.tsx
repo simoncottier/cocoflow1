@@ -48,6 +48,60 @@ export function AboutSection() {
           </p>
         </div>
 
+        {/* Specialties Section */}
+        <div className="glass-box-strong p-8 rounded-lg">
+          <h3 className="text-2xl font-semibold mb-6 text-center glass-text-accent">Mes Spécialités</h3>
+          <div className="grid md:grid-cols-2 gap-8 mb-8">
+            <div className="text-center">
+              <div className="inline-block p-6 rounded-full glass-box mb-4">
+                <span className="text-4xl">🔮</span>
+              </div>
+              <h4 className="text-xl font-semibold mb-3 glass-text-accent">Clair-ressenti</h4>
+              <p className="glass-text-white leading-relaxed">
+                Perception intuitive des énergies subtiles pour identifier les déséquilibres 
+                et guider la guérison naturelle de votre être.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="inline-block p-6 rounded-full glass-box mb-4">
+                <span className="text-4xl">✨</span>
+              </div>
+              <h4 className="text-xl font-semibold mb-3 glass-text-accent">Lecture de l'âme</h4>
+              <p className="glass-text-white leading-relaxed">
+                Connexion profonde avec votre essence pour révéler les messages 
+                et les chemins d'évolution de votre âme.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Problématiques traitées avec bulles */}
+        <div className="glass-box-strong p-8 rounded-lg relative overflow-hidden">
+          <h3 className="text-2xl font-semibold mb-6 text-center glass-text-accent">Ce que nous pouvons transformer ensemble</h3>
+          <p className="glass-text-white text-center mb-8 leading-relaxed">
+            Comme l'oxygène qui se libère dans l'eau, laissons vos blocages se dissoudre naturellement
+          </p>
+          
+          <div className="relative min-h-[300px] flex items-center justify-center">
+            {/* Bulles flottantes */}
+            <div className="bubble bubble-1">
+              <span>Douleurs chroniques</span>
+            </div>
+            <div className="bubble bubble-2">
+              <span>Fatigue</span>
+            </div>
+            <div className="bubble bubble-3">
+              <span>Burn-out</span>
+            </div>
+            <div className="bubble bubble-4">
+              <span>Blocages émotionnels</span>
+            </div>
+            <div className="bubble bubble-5">
+              <span>Perte de sens</span>
+            </div>
+          </div>
+        </div>
+
         <div className="glass-box-strong p-8 rounded-lg">
           <h3 className="text-2xl font-semibold mb-4 glass-text-accent">Ma formation</h3>
           <div className="glass-text-white space-y-3">

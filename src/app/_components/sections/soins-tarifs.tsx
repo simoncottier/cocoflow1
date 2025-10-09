@@ -4,153 +4,182 @@ export function SoinsTarifsSection() {
       <h2 className="text-3xl font-bold mb-8 text-white text-center">Soins et tarifs</h2>
       
       <div className="max-w-4xl mx-auto space-y-8">
-        {/* Introduction */}
+        {/* Tarifs principaux */}
         <div className="glass-box-strong p-8 rounded-lg">
-          <h3 className="text-2xl font-semibold mb-4 glass-text-accent">Mes soins énergétiques</h3>
-          <p className="text-gray-800 leading-relaxed mb-4">
-            Chez Cocoflow, je propose des soins énergétiques personnalisés destinés à rétablir l'harmonie intérieure, 
-            libérer les tensions physiques et émotionnelles, et favoriser un mieux-être global.
-          </p>
-          <p className="glass-text-white leading-relaxed">
-            Chaque séance est une invitation à ralentir, à écouter son corps et à laisser circuler l'énergie vitale naturellement.
-          </p>
-        </div>
-
-        {/* Types de soins */}
-        <div className="glass-box-strong p-8 rounded-lg">
-          <h3 className="text-2xl font-semibold mb-6" style={{color: '#007BA7'}}>Mes prestations</h3>
-          <div className="grid md:grid-cols-3 gap-6">
-            <div className="text-center p-4 rounded-lg" style={{backgroundColor: '#f8f9ff'}}>
-              <div className="w-12 h-12 mx-auto mb-3 rounded-full" style={{backgroundColor: '#007BA7'}}></div>
-              <h4 className="font-semibold mb-2 glass-text-accent">Soin énergétique global</h4>
-              <p className="text-gray-700 text-sm">
-                Harmonisation des centres énergétiques (chakras), rééquilibrage et recentrage.
-              </p>
-            </div>
-            
-            <div className="text-center p-4 rounded-lg" style={{backgroundColor: '#f8f9ff'}}>
-              <div className="w-12 h-12 mx-auto mb-3 rounded-full" style={{backgroundColor: '#007BA7'}}></div>
-              <h4 className="font-semibold mb-2 glass-text-accent">Libération émotionnelle</h4>
-              <p className="text-gray-700 text-sm">
-                Accompagnement des blocages liés au stress, à la fatigue ou aux émotions accumulées.
-              </p>
-            </div>
-            
-            <div className="text-center p-4 rounded-lg" style={{backgroundColor: '#f8f9ff'}}>
-              <div className="w-12 h-12 mx-auto mb-3 rounded-full" style={{backgroundColor: '#007BA7'}}></div>
-              <h4 className="font-semibold mb-2 glass-text-accent">Soin à distance</h4>
-              <p className="text-gray-700 text-sm">
-                Rééquilibrage énergétique à distance avec la même intention et efficacité.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* Déroulement */}
-        <div className="glass-box-strong p-8 rounded-lg">
-          <h3 className="text-2xl font-semibold mb-4 glass-text-accent">Déroulement d'une séance</h3>
-          <div className="space-y-4 glass-text-white">
-            <p>
-              Après un court échange pour comprendre vos besoins du moment, j'effectue un soin adapté à votre état énergétique.
-            </p>
-            <p>
-              La séance se déroule dans un cadre calme et bienveillant, propice au lâcher-prise.
-            </p>
-            <p className="font-semibold" style={{color: '#007BA7'}}>
-              Lausanne et région - Sur rendez-vous uniquement
-            </p>
-            <p className="font-semibold" style={{color: '#007BA7'}}>
-              Durée moyenne : 60 minutes
-            </p>
-          </div>
-        </div>
-
-        {/* Tarifs */}
-        <div className="glass-box-strong p-8 rounded-lg">
-          <h3 className="text-2xl font-semibold mb-6 text-center" style={{color: '#007BA7'}}>Tarifs</h3>
+          <h3 className="text-2xl font-semibold mb-6 text-center glass-text-accent">Mes tarifs</h3>
           
-          <div className="grid md:grid-cols-2 gap-6 mb-8">
-            {/* Séance individuelle */}
-            <div className="text-center p-6 rounded-lg border-2" style={{borderColor: '#007BA7', backgroundColor: '#f8f9ff'}}>
-              <h4 className="text-xl font-bold mb-2" style={{color: '#007BA7'}}>Séance Individuelle</h4>
-              <div className="text-3xl font-bold text-gray-800 mb-2">CHF 120</div>
-              <p className="text-gray-600 mb-4">60 minutes - En présentiel</p>
-              <ul className="text-sm text-gray-700 space-y-1">
-                <li>✓ Soin énergétique complet</li>
-                <li>✓ Harmonisation des chakras</li>
-                <li>✓ Échange et conseils personnalisés</li>
-                <li>✓ Suivi post-séance</li>
-              </ul>
+          <div className="grid md:grid-cols-2 gap-8 mb-8">
+            {/* Séance 90 minutes */}
+            <div className="text-center p-6 rounded-lg glass-box">
+              <div className="w-16 h-16 rounded-full glass-box-strong flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl">🌟</span>
+              </div>
+              <h4 className="text-xl font-bold mb-2 glass-text-accent">Séance Complète</h4>
+              <div className="text-3xl font-bold glass-text-white mb-2">90 CHF</div>
+              <p className="glass-text-white opacity-75 mb-4">Environ 1h30</p>
+              <p className="glass-text-white text-sm leading-relaxed">
+                Guérison de l'âme et du corps - Accompagnement complet pour votre bien-être global
+              </p>
             </div>
 
-            {/* Séance à distance */}
-            <div className="text-center p-6 rounded-lg border-2" style={{borderColor: '#007BA7', backgroundColor: '#f8f9ff'}}>
-              <h4 className="text-xl font-bold mb-2" style={{color: '#007BA7'}}>Séance à Distance</h4>
-              <div className="text-3xl font-bold text-gray-800 mb-2">CHF 90</div>
-              <p className="text-gray-600 mb-4">45 minutes - À distance</p>
-              <ul className="text-sm text-gray-700 space-y-1">
-                <li>✓ Soin énergétique par intention</li>
-                <li>✓ Échange téléphonique ou visio</li>
-                <li>✓ Même efficacité qu'en présentiel</li>
-                <li>✓ Flexibilité horaire</li>
-              </ul>
-            </div>
-          </div>
-
-          {/* Forfaits */}
-          <div className="mb-6">
-            <h4 className="text-lg font-semibold mb-4 text-center" style={{color: '#007BA7'}}>Forfaits Avantageux</h4>
-            <div className="grid md:grid-cols-2 gap-4">
-              <div className="text-center p-4 rounded-lg" style={{backgroundColor: '#e8f4f8'}}>
-                <h5 className="font-bold mb-1" style={{color: '#007BA7'}}>Forfait 3 séances</h5>
-                <p className="text-xl font-bold text-gray-800">CHF 320</p>
-                <p className="text-xs text-gray-600">Économie CHF 40</p>
+            {/* Séance 2h */}
+            <div className="text-center p-6 rounded-lg glass-box">
+              <div className="w-16 h-16 rounded-full glass-box-strong flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl">✨</span>
               </div>
-              <div className="text-center p-4 rounded-lg" style={{backgroundColor: '#e8f4f8'}}>
-                <h5 className="font-bold mb-1" style={{color: '#007BA7'}}>Forfait 5 séances</h5>
-                <p className="text-xl font-bold text-gray-800">CHF 500</p>
-                <p className="text-xs text-gray-600">Économie CHF 100</p>
-              </div>
+              <h4 className="text-xl font-bold mb-2 glass-text-accent">Séance Approfondie</h4>
+              <div className="text-3xl font-bold glass-text-white mb-2">150 CHF</div>
+              <p className="glass-text-white opacity-75 mb-4">2h</p>
+              <p className="glass-text-white text-sm leading-relaxed">
+                Session intensive pour un travail en profondeur et une transformation durable
+              </p>
             </div>
           </div>
+        </div>
 
-          {/* Informations pratiques */}
-          <div className="pt-6 border-t border-gray-200">
-            <h4 className="text-lg font-semibold mb-4" style={{color: '#007BA7'}}>Informations pratiques</h4>
-            <div className="grid md:grid-cols-3 gap-4 text-sm text-gray-700">
-              <div>
-                <h5 className="font-semibold mb-1">Paiement</h5>
-                <p>Espèces, Twint, virement bancaire</p>
+        {/* Types de thérapies */}
+        <div className="glass-box-strong p-8 rounded-lg">
+          <h3 className="text-2xl font-semibold mb-6 glass-text-accent">Mes approches thérapeutiques</h3>
+          
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="space-y-6">
+              <div className="glass-box p-6 rounded-lg">
+                <h4 className="text-lg font-semibold mb-3 glass-text-accent">Thérapie psycho corporelle</h4>
+                <p className="glass-text-white leading-relaxed text-sm">
+                  Approche holistique qui considère l'interconnexion entre le corps et l'esprit 
+                  pour libérer les tensions et retrouver l'harmonie.
+                </p>
               </div>
-              <div>
-                <h5 className="font-semibold mb-1">Annulation</h5>
-                <p>Gratuite jusqu'à 24h avant</p>
+              
+              <div className="glass-box p-6 rounded-lg">
+                <h4 className="text-lg font-semibold mb-3 glass-text-accent">Coaching intuitif de vie</h4>
+                <p className="glass-text-white leading-relaxed text-sm">
+                  Guidance personnalisée pour vous accompagner dans vos choix de vie 
+                  et révéler votre potentiel authentique.
+                </p>
               </div>
-              <div>
-                <h5 className="font-semibold mb-1">Première consultation</h5>
-                <p>15 min gratuit par téléphone</p>
+            </div>
+            
+            <div className="space-y-6">
+              <div className="glass-box p-6 rounded-lg">
+                <h4 className="text-lg font-semibold mb-3 glass-text-accent">Libération psycho-émotionnelle</h4>
+                <p className="glass-text-white leading-relaxed text-sm">
+                  Techniques douces pour identifier et libérer les blocages émotionnels 
+                  qui entravent votre épanouissement.
+                </p>
+              </div>
+              
+              <div className="glass-box p-6 rounded-lg">
+                <h4 className="text-lg font-semibold mb-3 glass-text-accent">Rééquilibrage psycho-émotionnel</h4>
+                <p className="glass-text-white leading-relaxed text-sm">
+                  Accompagnement pour identifier et réparer les causes de vos chocs émotionnels, 
+                  origine de l'essentiel de vos problèmes de santé et comportementaux.
+                </p>
               </div>
             </div>
           </div>
         </div>
 
-        {/* Contact pour RDV */}
+        {/* Déroulement des séances */}
         <div className="glass-box-strong p-8 rounded-lg">
-          <h3 className="text-2xl font-semibold mb-4 text-center" style={{color: '#007BA7'}}>Prendre rendez-vous</h3>
-          <p className="text-gray-800 text-center mb-6">
-            Contactez-moi pour un premier échange ou pour planifier une séance :
+          <h3 className="text-2xl font-semibold mb-6 glass-text-accent">Déroulement d'une séance</h3>
+          
+          <div className="space-y-6">
+            <div className="flex items-start space-x-4">
+              <div className="w-8 h-8 rounded-full glass-box flex items-center justify-center flex-shrink-0 mt-1">
+                <span className="text-sm font-bold glass-text-accent">1</span>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-2 glass-text-accent">Échange initial</h4>
+                <p className="glass-text-white leading-relaxed">
+                  Les séances débutent par un échange qui nous permettra de comprendre vos besoins 
+                  et d'adapter le soin à votre état du moment.
+                </p>
+              </div>
+            </div>
+            
+            <div className="flex items-start space-x-4">
+              <div className="w-8 h-8 rounded-full glass-box flex items-center justify-center flex-shrink-0 mt-1">
+                <span className="text-sm font-bold glass-text-accent">2</span>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-2 glass-text-accent">Canalisation et guidance</h4>
+                <p className="glass-text-white leading-relaxed">
+                  Je procède ensuite à une canalisation qui nous permettra de poursuivre 
+                  la séance de manière personnalisée, assis ou allongé selon vos préférences.
+                </p>
+              </div>
+            </div>
+            
+            <div className="flex items-start space-x-4">
+              <div className="w-8 h-8 rounded-full glass-box flex items-center justify-center flex-shrink-0 mt-1">
+                <span className="text-sm font-bold glass-text-accent">3</span>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-2 glass-text-accent">Le soin énergétique</h4>
+                <p className="glass-text-white leading-relaxed mb-3">
+                  Après quelques respirations conscientes, mes mains sont guidées sur vos maux. 
+                  Vous restez habillé et conscient pendant toute la consultation.
+                </p>
+                <p className="glass-text-white leading-relaxed text-sm italic">
+                  Les séances se déroulent dans un cadre bienveillant et sécurisé, 
+                  que ce soit en position assise ou allongée selon votre confort.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Informations pratiques */}
+        <div className="glass-box-strong p-8 rounded-lg">
+          <h3 className="text-2xl font-semibold mb-6 glass-text-accent">Informations pratiques</h3>
+          
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="text-center glass-box p-6 rounded-lg">
+              <span className="text-3xl mb-3 block">💳</span>
+              <h4 className="font-semibold mb-2 glass-text-accent">Modalités de paiement</h4>
+              <p className="glass-text-white text-sm">
+                Espèces, virement bancaire ou applications de paiement mobile
+              </p>
+            </div>
+            
+            <div className="text-center glass-box p-6 rounded-lg">
+              <span className="text-3xl mb-3 block">📅</span>
+              <h4 className="font-semibold mb-2 glass-text-accent">Réservation</h4>
+              <p className="glass-text-white text-sm">
+                Sur rendez-vous uniquement. Annulation gratuite jusqu'à 24h avant
+              </p>
+            </div>
+            
+            <div className="text-center glass-box p-6 rounded-lg">
+              <span className="text-3xl mb-3 block">🎯</span>
+              <h4 className="font-semibold mb-2 glass-text-accent">Suivi personnalisé</h4>
+              <p className="glass-text-white text-sm">
+                Conseils et recommandations adaptés à votre évolution
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Contact */}
+        <div className="glass-box-strong p-8 rounded-lg text-center">
+          <h3 className="text-2xl font-semibold mb-4 glass-text-accent">Prendre rendez-vous</h3>
+          <p className="glass-text-white mb-6 leading-relaxed">
+            Pour toute question ou pour planifier votre séance, n'hésitez pas à me contacter. 
+            Je serai ravie d'échanger avec vous sur vos besoins.
           </p>
+          
           <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8">
-            <div className="text-center">
-              <a href="tel:+41790000000" className="text-lg hover:underline" style={{color: '#007BA7'}}>
-                +41 79 000 00 00
-              </a>
-            </div>
-            <div className="text-center">
-              <a href="mailto:contact@cocoflow.ch" className="text-lg hover:underline" style={{color: '#007BA7'}}>
-                contact@cocoflow.ch
-              </a>
-            </div>
+            <a href="tel:+41782592246" 
+               className="inline-flex items-center px-6 py-3 rounded-full glass-box hover:glass-box-strong transition-all duration-300">
+              <span className="text-2xl mr-3">📞</span>
+              <span className="glass-text-accent font-medium">078 259 22 46</span>
+            </a>
+            <a href="mailto:contact@cocoflow.ch" 
+               className="inline-flex items-center px-6 py-3 rounded-full glass-box hover:glass-box-strong transition-all duration-300">
+              <span className="text-2xl mr-3">📧</span>
+              <span className="glass-text-accent font-medium">contact@cocoflow.ch</span>
+            </a>
           </div>
         </div>
       </div>

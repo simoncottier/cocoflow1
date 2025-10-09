@@ -78,8 +78,8 @@ export function Services() {
         <div className="space-y-3 text-lg">
           <p className="flex items-center">
             <span className="mr-3">📞</span>
-            <a href="tel:+41790000000" className="hover:underline" style={{color: '#007BA7'}}>
-              +41 79 000 00 00
+            <a href="tel:+41782592246" className="hover:underline" style={{color: '#007BA7'}}>
+              078 259 22 46
             </a>
           </p>
           <p className="flex items-center">

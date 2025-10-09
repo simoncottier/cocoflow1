@@ -7,6 +7,7 @@ import { AboutSection } from "@/app/_components/sections/about";
 import { ParcoursSection } from "@/app/_components/sections/parcours";
 import { SoinsTarifsSection } from "@/app/_components/sections/soins-tarifs";
 import { RessourcesSection } from "@/app/_components/sections/ressources";
+import { ContactSection } from "@/app/_components/sections/contact";
 
 export default function Index() {
   const [activeSection, setActiveSection] = useState('apropos');
@@ -21,6 +22,8 @@ export default function Index() {
         return <SoinsTarifsSection />;
       case 'ressources':
         return <RessourcesSection />;
+      case 'contact':
+        return <ContactSection />;
       default:
         return <AboutSection />;
     }
