@@ -2,6 +2,9 @@ import { CMS_NAME, HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import cn from "classnames";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { SpeedInsightsPanel } from "@vercel/speed-insights/panel";
+import { Analytics } from "@vercel/analytics/react";
 
 import "./globals.css";
 
@@ -57,6 +60,8 @@ export default function RootLayout({
       </head>
       <body className={cn(inter.className)} style={{backgroundColor: '#002366'}}>
         <div className="min-h-screen">{children}</div>
+        <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
