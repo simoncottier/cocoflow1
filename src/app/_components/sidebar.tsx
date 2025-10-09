@@ -36,12 +36,19 @@ export function Sidebar({ activeSection, onSectionChange }: SidebarProps) {
         className={`fixed left-0 top-0 h-full w-64 transform transition-transform duration-300 ease-in-out z-40 border-r-2 ${
           isOpen ? 'translate-x-0' : '-translate-x-full'
         } lg:translate-x-0`}
-        style={{ backgroundColor: '#001a4d', borderRightColor: '#007BA7' }}
+        style={{ backgroundColor: '#0f1b2e', borderRightColor: '#007BA7' }}
       >
         <div className="p-6">
           {/* Logo/Brand */}
           <div className="mb-8 text-center">
-            <h2 className="text-2xl font-bold text-white mb-2">🕊️ Cocoflow</h2>
+            <div className="flex justify-center mb-4">
+              <img 
+                src="/cocoflow-logo.png" 
+                alt="Cocoflow Logo" 
+                className="w-32 h-24 object-contain"
+              />
+            </div>
+            <h2 className="text-xl font-bold text-white mb-1">Cocoflow</h2>
             <p className="text-sm text-gray-300">Soins énergétiques</p>
           </div>
 
