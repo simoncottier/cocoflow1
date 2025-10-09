@@ -60,8 +60,7 @@ export function Sidebar({ activeSection, onSectionChange }: SidebarProps) {
                     : 'text-gray-300 hover:text-white hover:bg-opacity-20'
                 }`}
                 style={{
-                  backgroundColor: activeSection === item.id ? '#007BA7' : 'transparent',
-                  ':hover': { backgroundColor: 'rgba(0, 123, 167, 0.2)' }
+                  backgroundColor: activeSection === item.id ? '#007BA7' : 'transparent'
                 }}
               >
                 <span className="text-xl">{item.icon}</span>
