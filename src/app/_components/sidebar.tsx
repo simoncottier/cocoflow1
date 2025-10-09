@@ -11,10 +11,10 @@ export function Sidebar({ activeSection, onSectionChange }: SidebarProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   const menuItems = [
-    { id: 'apropos', label: '🕊️ À propos', icon: '🕊️' },
-    { id: 'parcours', label: '🌱 Mon parcours', icon: '🌱' },
-    { id: 'soins-tarifs', label: '💎 Soins et tarifs', icon: '💎' },
-    { id: 'ressources', label: '📚 Mes ressources', icon: '📚' },
+    { id: 'apropos', label: 'À propos', icon: '' },
+    { id: 'parcours', label: 'Mon parcours', icon: '' },
+    { id: 'soins-tarifs', label: 'Soins et tarifs', icon: '' },
+    { id: 'ressources', label: 'Mes ressources', icon: '' },
   ];
 
   return (
@@ -69,8 +69,7 @@ export function Sidebar({ activeSection, onSectionChange }: SidebarProps) {
                   backgroundColor: activeSection === item.id ? '#007BA7' : 'transparent'
                 }}
               >
-                <span className="text-xl">{item.icon}</span>
-                <span className="font-medium">{item.label.replace(/^🏠 |🌿 |🕊️ |💎 |💬 /, '')}</span>
+                <span className="font-medium">{item.label}</span>
               </button>
             ))}
           </nav>
@@ -82,13 +81,13 @@ export function Sidebar({ activeSection, onSectionChange }: SidebarProps) {
                 href="tel:+41790000000"
                 className="block text-sm text-blue-300 hover:text-white transition-colors"
               >
-                📞 +41 79 000 00 00
++41 79 000 00 00
               </a>
               <a
                 href="mailto:contact@cocoflow.ch"
                 className="block text-sm text-blue-300 hover:text-white transition-colors"
               >
-                📧 contact@cocoflow.ch
+contact@cocoflow.ch
               </a>
             </div>
           </div>
