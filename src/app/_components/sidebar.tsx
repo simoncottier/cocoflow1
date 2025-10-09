@@ -11,11 +11,10 @@ export function Sidebar({ activeSection, onSectionChange }: SidebarProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   const menuItems = [
-    { id: 'accueil', label: '🏠 Accueil', icon: '🏠' },
-    { id: 'prestations', label: '🌿 Prestations', icon: '🌿' },
     { id: 'apropos', label: '🕊️ À propos', icon: '🕊️' },
-    { id: 'tarifs', label: '💎 Tarifs', icon: '💎' },
-    { id: 'contact', label: '💬 Contact', icon: '💬' },
+    { id: 'parcours', label: '🌱 Mon parcours', icon: '🌱' },
+    { id: 'soins-tarifs', label: '💎 Soins et tarifs', icon: '💎' },
+    { id: 'ressources', label: '📚 Mes ressources', icon: '📚' },
   ];
 
   return (

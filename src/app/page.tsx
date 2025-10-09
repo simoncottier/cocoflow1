@@ -3,39 +3,26 @@
 import { useState } from 'react';
 import Container from "@/app/_components/container";
 import { Sidebar } from "@/app/_components/sidebar";
-import { Intro } from "@/app/_components/intro";
-import { Services } from "@/app/_components/services";
 import { AboutSection } from "@/app/_components/sections/about";
-import { PricingSection } from "@/app/_components/sections/pricing";
-import { ContactSection } from "@/app/_components/sections/contact";
+import { ParcoursSection } from "@/app/_components/sections/parcours";
+import { SoinsTarifsSection } from "@/app/_components/sections/soins-tarifs";
+import { RessourcesSection } from "@/app/_components/sections/ressources";
 
 export default function Index() {
-  const [activeSection, setActiveSection] = useState('accueil');
+  const [activeSection, setActiveSection] = useState('apropos');
 
   const renderSection = () => {
     switch (activeSection) {
-      case 'accueil':
-        return (
-          <>
-            <Intro />
-            <Services />
-          </>
-        );
-      case 'prestations':
-        return <Services />;
       case 'apropos':
         return <AboutSection />;
-      case 'tarifs':
-        return <PricingSection />;
-      case 'contact':
-        return <ContactSection />;
+      case 'parcours':
+        return <ParcoursSection />;
+      case 'soins-tarifs':
+        return <SoinsTarifsSection />;
+      case 'ressources':
+        return <RessourcesSection />;
       default:
-        return (
-          <>
-            <Intro />
-            <Services />
-          </>
-        );
+        return <AboutSection />;
     }
   };
 
