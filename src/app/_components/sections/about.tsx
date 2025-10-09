@@ -24,7 +24,7 @@ export function AboutSection() {
             </div>
             <div className="relative group">
               <img 
-                src="/IMG_1631.jpg" 
+                src="/IMG_1631.JPG" 
                 alt="Photo professionnelle 3" 
                 className="w-full h-64 object-cover object-top rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
               />
