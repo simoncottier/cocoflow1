@@ -10,7 +10,7 @@ import "./globals.css";
 // Custom font configuration moved to globals.css
 
 export const metadata: Metadata = {
-  title: "🐋 CocoFlow - Soins énergétiques à Lausanne et environs",
+  title: "CocoFlow - Soins énergétiques à Lausanne et environs",
   description: "Retrouver l'équilibre entre corps et esprit. Soins énergétiques personnalisés pour rétablir l'harmonie intérieure, libérer les tensions et favoriser le mieux-être global.",
   openGraph: {
     images: [HOME_OG_IMAGE_URL],
@@ -28,27 +28,27 @@ export default function RootLayout({
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href="/favicon/apple-touch-icon.png"
+          href="/cocoflow-logo.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="/favicon/favicon-32x32.png"
+          href="/cocoflow-logo.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="/favicon/favicon-16x16.png"
+          href="/cocoflow-logo.png"
         />
         <link rel="manifest" href="/favicon/site.webmanifest" />
         <link
           rel="mask-icon"
-          href="/favicon/safari-pinned-tab.svg"
+          href="/cocoflow-logo.png"
           color="#071531"
         />
-        <link rel="shortcut icon" href="/favicon/favicon.ico" />
+        <link rel="shortcut icon" href="/cocoflow-logo.png" />
         <meta name="msapplication-TileColor" content="#071531" />
         <meta
           name="msapplication-config"
