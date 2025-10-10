@@ -241,7 +241,6 @@ export function ContactSection() {
                 <p>• Parking gratuit disponible</p>
                 <p>• Transports publics : Bus ligne 16 et LEB</p>
                 <p>• À 10 minutes de Lausanne</p>
-                <p>• Séances à distance également possibles</p>
               </div>
             </div>
           </div>
@@ -251,12 +250,11 @@ export function ContactSection() {
         <div className="glass-box-strong p-8 rounded-lg text-center">
           <h3 className="text-2xl font-semibold mb-6 text-white">Notre environnement</h3>
           <div className="mb-4">
-            <div className="w-full h-64 rounded-lg border-2 border-dashed border-gray-400 flex items-center justify-center glass-box">
-              <p className="glass-text-white text-center">
-                Espace réservé pour<br />
-                la photo de la plage
-              </p>
-            </div>
+            <img 
+              src="/IMG_1626.jpg" 
+              alt="Environnement CocoFlow près du lac" 
+              className="w-full h-64 object-cover rounded-lg shadow-md"
+            />
           </div>
           <p className="glass-text-white leading-relaxed">
             Un cadre naturel apaisant près du lac, parfait pour favoriser la détente et l'introspection lors de nos séances.

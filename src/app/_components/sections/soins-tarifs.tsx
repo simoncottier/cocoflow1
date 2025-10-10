@@ -11,7 +11,7 @@ export function SoinsTarifsSection() {
           <div className="text-center mb-8">
             <div className="inline-block p-6 rounded-lg glass-box max-w-md mx-auto">
               <h4 className="text-xl font-bold mb-2 text-white">Séance Complète</h4>
-              <div className="text-3xl font-bold glass-text-white mb-2">90 CHF</div>
+              <div className="text-3xl font-bold glass-text-white mb-2">140 CHF</div>
               <p className="glass-text-white opacity-75 mb-4">Environ 1h30</p>
               <p className="glass-text-white text-sm leading-relaxed">
                 Guérison de l'âme et du corps - Accompagnement complet pour votre bien-être global
