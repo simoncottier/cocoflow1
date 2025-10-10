@@ -127,7 +127,7 @@ export function RessourcesSection() {
           </p>
           
           <div className="space-y-8">
-            {/* Livre 1 */}
+            {/* Livre 1 - Fixed className */}
             <div className="glass-box-strong p-8 rounded-lg">
               <h4 className="text-2xl font-semibold mb-4 text-white">Les énergies et les corps subtils</h4>
               <p className="glass-text-white mb-4 italic">— Monique Schloupt</p>
