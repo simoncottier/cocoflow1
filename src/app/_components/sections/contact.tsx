@@ -46,7 +46,7 @@ export function ContactSection() {
       <div className="max-w-4xl mx-auto space-y-8">
         {/* Informations de contact */}
         <div className="glass-box-strong p-8 rounded-lg">
-          <h3 className="text-2xl font-semibold mb-6 text-center glass-text-accent">Prenons contact</h3>
+          <h3 className="text-2xl font-semibold mb-6 text-center text-white">Prenons contact</h3>
           <p className="glass-text-white text-center mb-8 leading-relaxed">
             N'hésitez pas à me contacter pour toute question ou pour prendre rendez-vous. 
             Je serais ravie d'échanger avec vous sur vos besoins et de vous accompagner dans votre cheminement.
@@ -55,10 +55,7 @@ export function ContactSection() {
           <div className="grid md:grid-cols-3 gap-8">
             {/* Adresse */}
             <div className="text-center glass-box p-6 rounded-lg">
-              <div className="w-16 h-16 rounded-full glass-box-strong flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">📍</span>
-              </div>
-              <h4 className="text-lg font-semibold mb-3 glass-text-accent">Adresse</h4>
+              <h4 className="text-lg font-semibold mb-3 text-white">Adresse</h4>
               <div className="glass-text-white space-y-1">
                 <p>Chemin du Pré Jaquet 1A</p>
                 <p>1032 Romanel sur Lausanne</p>
@@ -69,41 +66,32 @@ export function ContactSection() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center mt-3 px-4 py-2 rounded-lg glass-box hover:glass-box-strong transition-all duration-300"
               >
-                <span className="text-sm mr-2">🗺️</span>
-                <span className="glass-text-accent text-sm font-medium">Voir sur la carte</span>
+                <span className="text-white text-sm font-medium">Voir sur la carte</span>
               </a>
             </div>
 
             {/* Email */}
             <div className="text-center glass-box p-6 rounded-lg">
-              <div className="w-16 h-16 rounded-full glass-box-strong flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">📧</span>
-              </div>
-              <h4 className="text-lg font-semibold mb-3 glass-text-accent">Email</h4>
+              <h4 className="text-lg font-semibold mb-3 text-white">Email</h4>
               <p className="glass-text-white mb-3">contact@cocoflow.ch</p>
               <a 
                 href="mailto:contact@cocoflow.ch" 
                 className="inline-flex items-center px-4 py-2 rounded-lg glass-box hover:glass-box-strong transition-all duration-300"
               >
-                <span className="text-sm mr-2">✉️</span>
-                <span className="glass-text-accent text-sm font-medium">Envoyer un email</span>
+                <span className="text-white text-sm font-medium">Envoyer un email</span>
               </a>
             </div>
 
             {/* Téléphone */}
             <div className="text-center glass-box p-6 rounded-lg">
-              <div className="w-16 h-16 rounded-full glass-box-strong flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">📱</span>
-              </div>
-              <h4 className="text-lg font-semibold mb-3 glass-text-accent">Téléphone</h4>
+              <h4 className="text-lg font-semibold mb-3 text-white">Téléphone</h4>
               <p className="glass-text-white mb-3">078 259 22 46</p>
               <div className="flex flex-col space-y-2">
                 <a 
                   href="tel:+41782592246" 
                   className="inline-flex items-center px-4 py-2 rounded-lg glass-box hover:glass-box-strong transition-all duration-300"
                 >
-                  <span className="text-sm mr-2">📞</span>
-                  <span className="glass-text-accent text-sm font-medium">Appeler</span>
+                  <span className="text-white text-sm font-medium">Appeler</span>
                 </a>
                 <a 
                   href="https://wa.me/41782592246" 
@@ -111,8 +99,7 @@ export function ContactSection() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center px-4 py-2 rounded-lg glass-box hover:glass-box-strong transition-all duration-300"
                 >
-                  <span className="text-sm mr-2">💬</span>
-                  <span className="glass-text-accent text-sm font-medium">WhatsApp</span>
+                  <span className="text-white text-sm font-medium">WhatsApp</span>
                 </a>
               </div>
             </div>
@@ -121,12 +108,12 @@ export function ContactSection() {
 
         {/* Formulaire de contact */}
         <div className="glass-box-strong p-8 rounded-lg">
-          <h3 className="text-2xl font-semibold mb-6 glass-text-accent">Formulaire de contact</h3>
+          <h3 className="text-2xl font-semibold mb-6 text-white">Formulaire de contact</h3>
           
           {submitStatus === 'success' && (
             <div className="mb-6 p-4 rounded-lg glass-box border-l-4 border-green-400">
               <p className="glass-text-white">
-                ✅ Votre message a été envoyé avec succès ! Je vous répondrai dans les plus brefs délais.
+                Votre message a été envoyé avec succès ! Je vous répondrai dans les plus brefs délais.
               </p>
             </div>
           )}
@@ -134,7 +121,7 @@ export function ContactSection() {
           {submitStatus === 'error' && (
             <div className="mb-6 p-4 rounded-lg glass-box border-l-4 border-red-400">
               <p className="glass-text-white">
-                ❌ Une erreur s'est produite lors de l'envoi. Veuillez réessayer ou me contacter directement.
+                Une erreur s'est produite lors de l'envoi. Veuillez réessayer ou me contacter directement.
               </p>
             </div>
           )}
@@ -142,7 +129,7 @@ export function ContactSection() {
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="grid md:grid-cols-2 gap-6">
               <div>
-                <label htmlFor="name" className="block text-sm font-medium glass-text-accent mb-2">
+                <label htmlFor="name" className="block text-sm font-medium text-white mb-2">
                   Nom *
                 </label>
                 <input
@@ -152,13 +139,13 @@ export function ContactSection() {
                   required
                   value={formData.name}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 rounded-lg glass-box border border-opacity-30 border-white focus:border-blue-400 focus:outline-none glass-text-white placeholder-gray-400"
+                  className="w-full px-4 py-3 rounded-lg glass-box focus:outline-none glass-text-white placeholder-gray-400"
                   placeholder="Votre nom"
                 />
               </div>
               
               <div>
-                <label htmlFor="email" className="block text-sm font-medium glass-text-accent mb-2">
+                <label htmlFor="email" className="block text-sm font-medium text-white mb-2">
                   Email *
                 </label>
                 <input
@@ -168,14 +155,14 @@ export function ContactSection() {
                   required
                   value={formData.email}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 rounded-lg glass-box border border-opacity-30 border-white focus:border-blue-400 focus:outline-none glass-text-white placeholder-gray-400"
+                  className="w-full px-4 py-3 rounded-lg glass-box focus:outline-none glass-text-white placeholder-gray-400"
                   placeholder="votre@email.com"
                 />
               </div>
             </div>
             
             <div>
-              <label htmlFor="subject" className="block text-sm font-medium glass-text-accent mb-2">
+              <label htmlFor="subject" className="block text-sm font-medium text-white mb-2">
                 Sujet
               </label>
               <input
@@ -190,7 +177,7 @@ export function ContactSection() {
             </div>
             
             <div>
-              <label htmlFor="message" className="block text-sm font-medium glass-text-accent mb-2">
+              <label htmlFor="message" className="block text-sm font-medium text-white mb-2">
                 Message *
               </label>
               <textarea
@@ -200,7 +187,7 @@ export function ContactSection() {
                 required
                 value={formData.message}
                 onChange={handleInputChange}
-                className="w-full px-4 py-3 rounded-lg glass-box border border-opacity-30 border-white focus:border-blue-400 focus:outline-none glass-text-white placeholder-gray-400 resize-none"
+                className="w-full px-4 py-3 rounded-lg glass-box focus:outline-none glass-text-white placeholder-gray-400 resize-none"
                 placeholder="Décrivez vos besoins, vos questions ou votre demande de rendez-vous..."
               />
             </div>
@@ -213,12 +200,10 @@ export function ContactSection() {
               >
                 {isSubmitting ? (
                   <>
-                    <span className="animate-spin mr-3">⏳</span>
                     <span className="glass-text-white font-medium">Envoi en cours...</span>
                   </>
                 ) : (
                   <>
-                    <span className="text-xl mr-3">📨</span>
                     <span className="glass-text-white font-medium">Envoyer le message</span>
                   </>
                 )}
@@ -233,13 +218,12 @@ export function ContactSection() {
 
         {/* Horaires et informations pratiques */}
         <div className="glass-box-strong p-8 rounded-lg">
-          <h3 className="text-2xl font-semibold mb-6 glass-text-accent">Informations pratiques</h3>
+          <h3 className="text-2xl font-semibold mb-6 text-white">Informations pratiques</h3>
           
           <div className="grid md:grid-cols-2 gap-8">
             <div>
               <div className="flex items-center mb-4">
-                <span className="text-2xl mr-3">🕐</span>
-                <h4 className="text-lg font-semibold glass-text-accent">Disponibilités</h4>
+                <h4 className="text-lg font-semibold text-white">Disponibilités</h4>
               </div>
               <div className="glass-text-white space-y-2">
                 <p>• Rendez-vous sur demande</p>
@@ -251,17 +235,32 @@ export function ContactSection() {
             
             <div>
               <div className="flex items-center mb-4">
-                <span className="text-2xl mr-3">🚗</span>
-                <h4 className="text-lg font-semibold glass-text-accent">Accès</h4>
+                <h4 className="text-lg font-semibold text-white">Accès</h4>
               </div>
               <div className="glass-text-white space-y-2">
                 <p>• Parking gratuit disponible</p>
-                <p>• Transports publics : Bus ligne 16</p>
+                <p>• Transports publics : Bus ligne 16 et LEB</p>
                 <p>• À 10 minutes de Lausanne</p>
                 <p>• Séances à distance également possibles</p>
               </div>
             </div>
           </div>
+        </div>
+
+        {/* Photo de la plage */}
+        <div className="glass-box-strong p-8 rounded-lg text-center">
+          <h3 className="text-2xl font-semibold mb-6 text-white">Notre environnement</h3>
+          <div className="mb-4">
+            <div className="w-full h-64 rounded-lg border-2 border-dashed border-gray-400 flex items-center justify-center glass-box">
+              <p className="glass-text-white text-center">
+                Espace réservé pour<br />
+                la photo de la plage
+              </p>
+            </div>
+          </div>
+          <p className="glass-text-white leading-relaxed">
+            Un cadre naturel apaisant près du lac, parfait pour favoriser la détente et l'introspection lors de nos séances.
+          </p>
         </div>
       </div>
     </section>

@@ -7,8 +7,7 @@ export function RessourcesSection() {
         {/* Introduction */}
         <div className="glass-box-strong p-8 rounded-lg">
           <div className="text-center mb-6">
-            <span className="text-4xl mb-4 block">🧠</span>
-            <h3 className="text-2xl font-semibold mb-4 glass-text-accent">Muscler votre esprit</h3>
+            <h3 className="text-2xl font-semibold mb-4 text-white">Muscler votre esprit</h3>
           </div>
           <p className="glass-text-white leading-relaxed text-center">
             L'idée est de parvenir à muscler notre esprit pour nous décoller du mental, pour vivre au
@@ -18,16 +17,12 @@ export function RessourcesSection() {
 
         {/* Applications */}
         <div className="glass-box-strong p-8 rounded-lg">
-          <h3 className="text-2xl font-semibold mb-6 glass-text-accent">Applications recommandées</h3>
+          <h3 className="text-2xl font-semibold mb-6 text-white">Applications recommandées</h3>
           
           <div className="space-y-6">
             <div className="glass-box p-6 rounded-lg">
-              <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 rounded-full glass-box-strong flex items-center justify-center flex-shrink-0">
-                  <span className="text-2xl">🔔</span>
-                </div>
-                <div className="flex-1">
-                  <h4 className="text-lg font-semibold mb-2 glass-text-accent">Conscience pour tous</h4>
+              <div className="flex-1">
+                  <h4 className="text-lg font-semibold mb-2 text-white">Conscience pour tous</h4>
                   <p className="glass-text-white leading-relaxed mb-3">
                     Charlotte Hoefman a créé une cloche de pleine conscience comme un réveil
                     qui nous ramène chaque jour à la conscience de soi, au moment présent.
@@ -39,20 +34,14 @@ export function RessourcesSection() {
                     rel="noopener noreferrer"
                     className="inline-flex items-center px-4 py-2 rounded-lg glass-box hover:glass-box-strong transition-all duration-300"
                   >
-                    <span className="text-lg mr-2">📱</span>
-                    <span className="glass-text-accent font-medium">Télécharger sur App Store</span>
+                    <span className="text-white font-medium">Télécharger sur App Store</span>
                   </a>
-                </div>
               </div>
             </div>
 
             <div className="glass-box p-6 rounded-lg">
-              <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 rounded-full glass-box-strong flex items-center justify-center flex-shrink-0">
-                  <span className="text-2xl">⏰</span>
-                </div>
-                <div className="flex-1">
-                  <h4 className="text-lg font-semibold mb-2 glass-text-accent">Insight Timer</h4>
+              <div className="flex-1">
+                  <h4 className="text-lg font-semibold mb-2 text-white">Insight Timer</h4>
                   <p className="glass-text-white leading-relaxed mb-3">
                     Le Timer pour les méditations est top : possibilité d'ajouter un gong de début et de fin, de
                     choisir le fond sonore. Une application complète pour votre pratique méditative.
@@ -63,10 +52,8 @@ export function RessourcesSection() {
                     rel="noopener noreferrer"
                     className="inline-flex items-center px-4 py-2 rounded-lg glass-box hover:glass-box-strong transition-all duration-300"
                   >
-                    <span className="text-lg mr-2">📱</span>
-                    <span className="glass-text-accent font-medium">Télécharger sur App Store</span>
+                    <span className="text-white font-medium">Télécharger sur App Store</span>
                   </a>
-                </div>
               </div>
             </div>
           </div>
@@ -74,16 +61,12 @@ export function RessourcesSection() {
 
         {/* Vidéos */}
         <div className="glass-box-strong p-8 rounded-lg">
-          <h3 className="text-2xl font-semibold mb-6 glass-text-accent">Vidéos & Documentaires</h3>
+          <h3 className="text-2xl font-semibold mb-6 text-white">Vidéos & Documentaires</h3>
           
           <div className="space-y-6">
             <div className="glass-box p-6 rounded-lg">
-              <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 rounded-full glass-box-strong flex items-center justify-center flex-shrink-0">
-                  <span className="text-2xl">🎬</span>
-                </div>
-                <div className="flex-1">
-                  <h4 className="text-lg font-semibold mb-2 glass-text-accent">Chaîne YouTube Tistrya</h4>
+              <div className="flex-1">
+                  <h4 className="text-lg font-semibold mb-2 text-white">Chaîne YouTube Tistrya</h4>
                   <p className="glass-text-white leading-relaxed mb-3">
                     Des documentaires où des personnes témoignent de diverses expériences. 
                     Peu importe ce que vous vivez, une thématique sera peut-être porteuse de sens, d'identification...
@@ -94,20 +77,14 @@ export function RessourcesSection() {
                     rel="noopener noreferrer"
                     className="inline-flex items-center px-4 py-2 rounded-lg glass-box hover:glass-box-strong transition-all duration-300"
                   >
-                    <span className="text-lg mr-2">📺</span>
-                    <span className="glass-text-accent font-medium">Découvrir la chaîne</span>
+                    <span className="text-white font-medium">Découvrir la chaîne</span>
                   </a>
-                </div>
               </div>
             </div>
 
             <div className="glass-box p-6 rounded-lg">
-              <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 rounded-full glass-box-strong flex items-center justify-center flex-shrink-0">
-                  <span className="text-2xl">✨</span>
-                </div>
-                <div className="flex-1">
-                  <h4 className="text-lg font-semibold mb-2 glass-text-accent">La puissance de l'intention</h4>
+              <div className="flex-1">
+                  <h4 className="text-lg font-semibold mb-2 text-white">La puissance de l'intention</h4>
                   <p className="glass-text-white leading-relaxed mb-3">
                     Un documentaire inspirant sur le pouvoir de l'intention et son impact sur notre réalité.
                   </p>
@@ -117,20 +94,14 @@ export function RessourcesSection() {
                     rel="noopener noreferrer"
                     className="inline-flex items-center px-4 py-2 rounded-lg glass-box hover:glass-box-strong transition-all duration-300"
                   >
-                    <span className="text-lg mr-2">▶️</span>
-                    <span className="glass-text-accent font-medium">Regarder le documentaire</span>
+                    <span className="text-white font-medium">Regarder le documentaire</span>
                   </a>
-                </div>
               </div>
             </div>
 
             <div className="glass-box p-6 rounded-lg">
-              <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 rounded-full glass-box-strong flex items-center justify-center flex-shrink-0">
-                  <span className="text-2xl">🎭</span>
-                </div>
-                <div className="flex-1">
-                  <h4 className="text-lg font-semibold mb-2 glass-text-accent">Film "L'âme"</h4>
+              <div className="flex-1">
+                  <h4 className="text-lg font-semibold mb-2 text-white">Film "L'âme"</h4>
                   <p className="glass-text-white leading-relaxed mb-3">
                     Une exploration cinématographique profonde de la nature de l'âme et de la conscience.
                   </p>
@@ -140,10 +111,8 @@ export function RessourcesSection() {
                     rel="noopener noreferrer"
                     className="inline-flex items-center px-4 py-2 rounded-lg glass-box hover:glass-box-strong transition-all duration-300"
                   >
-                    <span className="text-lg mr-2">🎬</span>
-                    <span className="glass-text-accent font-medium">Regarder le film</span>
+                    <span className="text-white font-medium">Regarder le film</span>
                   </a>
-                </div>
               </div>
             </div>
           </div>
@@ -151,7 +120,7 @@ export function RessourcesSection() {
 
         {/* Lectures - Les énergies et les corps subtils */}
         <div className="glass-box-strong p-8 rounded-lg">
-          <h3 className="text-2xl font-semibold mb-6 glass-text-accent">Lectures inspirantes</h3>
+          <h3 className="text-2xl font-semibold mb-6 text-white">Lectures inspirantes</h3>
           <p className="glass-text-white mb-6 italic text-center">
             Les ouvrages qui m'ont marquée et la synthèse personnelle retirée que je choisis de relire
             régulièrement pour me les rappeler.
@@ -159,11 +128,8 @@ export function RessourcesSection() {
           
           <div className="space-y-8">
             {/* Livre 1 */}
-            <div className="glass-box p-6 rounded-lg">
-              <div className="flex items-center mb-4">
-                <span className="text-3xl mr-4">📖</span>
-                <h4 className="text-xl font-semibold glass-text-accent">Les énergies et les corps subtils</h4>
-              </div>
+            <div class="glass-box-strong p-8 rounded-lg">
+              <h4 className="text-2xl font-semibold mb-4 text-white">Les énergies et les corps subtils</h4>
               <p className="glass-text-white mb-4 italic">— Monique Schloupt</p>
               
               <div className="space-y-4">
@@ -203,11 +169,8 @@ export function RessourcesSection() {
             </div>
 
             {/* Livre 2 */}
-            <div className="glass-box p-6 rounded-lg">
-              <div className="flex items-center mb-4">
-                <span className="text-3xl mr-4">📚</span>
-                <h4 className="text-xl font-semibold glass-text-accent">L'âme du monde</h4>
-              </div>
+            <div class="glass-box-strong p-8 rounded-lg">
+              <h4 className="text-2xl font-semibold mb-4 text-white">L'âme du monde</h4>
               <p className="glass-text-white mb-4 italic">— Frédéric Lenoir</p>
               
               <div className="space-y-4">
@@ -249,27 +212,6 @@ export function RessourcesSection() {
           </div>
         </div>
 
-        {/* Partage et échange */}
-        <div className="glass-box-strong p-8 rounded-lg text-center">
-          <h3 className="text-2xl font-semibold mb-4 glass-text-accent">Échanger sur ces ressources</h3>
-          <p className="glass-text-white mb-6 leading-relaxed">
-            Ces outils m'accompagnent dans mon cheminement personnel. Si l'une de ces ressources résonne en vous 
-            ou si vous souhaitez partager vos propres découvertes, je serais ravie d'échanger avec vous.
-          </p>
-          
-          <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8">
-            <a href="tel:+41782592246" 
-               className="inline-flex items-center px-6 py-3 rounded-full glass-box hover:glass-box-strong transition-all duration-300">
-              <span className="text-2xl mr-3">📞</span>
-              <span className="glass-text-accent font-medium">078 259 22 46</span>
-            </a>
-            <a href="mailto:contact@cocoflow.ch" 
-               className="inline-flex items-center px-6 py-3 rounded-full glass-box hover:glass-box-strong transition-all duration-300">
-              <span className="text-2xl mr-3">📧</span>
-              <span className="glass-text-accent font-medium">contact@cocoflow.ch</span>
-            </a>
-          </div>
-        </div>
       </div>
     </section>
   );

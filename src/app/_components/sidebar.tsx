@@ -12,9 +12,9 @@ export function Sidebar({ activeSection, onSectionChange }: SidebarProps) {
 
   const menuItems = [
     { id: 'apropos', label: 'À propos', icon: '' },
-    { id: 'parcours', label: 'Mon parcours', icon: '' },
+    { id: 'parcours', label: 'Parcours', icon: '' },
     { id: 'soins-tarifs', label: 'Soins et tarifs', icon: '' },
-    { id: 'ressources', label: 'Mes ressources', icon: '' },
+    { id: 'ressources', label: 'Ressources', icon: '' },
     { id: 'contact', label: 'Contact', icon: '' },
   ];
 
@@ -22,7 +22,7 @@ export function Sidebar({ activeSection, onSectionChange }: SidebarProps) {
     <>
       {/* Mobile Menu Button */}
       <button
-        className="lg:hidden fixed top-4 left-4 z-50 p-2 rounded-md text-white"
+        className="lg:hidden fixed top-4 right-4 z-50 p-2 rounded-md text-white"
         style={{ backgroundColor: '#007BA7' }}
         onClick={() => setIsOpen(!isOpen)}
       >
@@ -33,10 +33,10 @@ export function Sidebar({ activeSection, onSectionChange }: SidebarProps) {
 
       {/* Sidebar */}
       <div
-        className={`fixed left-0 top-0 h-full w-64 transform transition-transform duration-300 ease-in-out z-40 border-r-2 ${
-          isOpen ? 'translate-x-0' : '-translate-x-full'
+        className={`fixed right-0 top-0 h-full w-64 transform transition-transform duration-300 ease-in-out z-40 border-l-2 ${
+          isOpen ? 'translate-x-0' : 'translate-x-full'
         } lg:translate-x-0`}
-        style={{ backgroundColor: '#071531', borderRightColor: '#007BA7' }}
+        style={{ backgroundColor: '#071531', borderLeftColor: '#007BA7' }}
       >
         <div className="p-6">
           {/* Logo/Brand */}
@@ -44,11 +44,11 @@ export function Sidebar({ activeSection, onSectionChange }: SidebarProps) {
             <div className="flex justify-center mb-4">
               <img 
                 src="/cocoflow-logo.png" 
-                alt="Cocoflow Logo" 
+                alt="CocoFlow Logo" 
                 className="w-32 h-24 object-contain"
               />
             </div>
-            <h2 className="text-xl font-bold text-white mb-1">Cocoflow</h2>
+            <h2 className="text-xl font-bold text-white mb-1">CocoFlow</h2>
             <p className="text-sm text-gray-300">Soins énergétiques</p>
           </div>
 

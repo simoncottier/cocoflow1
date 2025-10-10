@@ -31,14 +31,14 @@ export default function Index() {
 
   return (
     <div className="flex">
-      <Sidebar activeSection={activeSection} onSectionChange={setActiveSection} />
-      <main className="flex-1 lg:ml-64">
+      <main className="flex-1 lg:mr-64">
         <Container>
           <div className="pt-16 lg:pt-0">
             {renderSection()}
           </div>
         </Container>
       </main>
+      <Sidebar activeSection={activeSection} onSectionChange={setActiveSection} />
     </div>
   );
 }

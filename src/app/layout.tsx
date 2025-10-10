@@ -1,16 +1,16 @@
 import { CMS_NAME, HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+// Import removed - using custom font configuration
 import cn from "classnames";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react";
 
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+// Custom font configuration moved to globals.css
 
 export const metadata: Metadata = {
-  title: "🕊️ Cocoflow - Soins énergétiques à Lausanne et environs",
+  title: "🕊️ CocoFlow - Soins énergétiques à Lausanne et environs",
   description: "Retrouver l'équilibre entre corps et esprit. Soins énergétiques personnalisés pour rétablir l'harmonie intérieure, libérer les tensions et favoriser le mieux-être global.",
   openGraph: {
     images: [HOME_OG_IMAGE_URL],
@@ -57,7 +57,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#071531" />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
-      <body className={cn(inter.className)} style={{backgroundColor: '#071531'}}>
+      <body className="font-apple-system" style={{backgroundColor: '#071531'}}>
         <div className="min-h-screen">{children}</div>
         <SpeedInsights />
         <Analytics />

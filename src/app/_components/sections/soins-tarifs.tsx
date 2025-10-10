@@ -6,32 +6,15 @@ export function SoinsTarifsSection() {
       <div className="max-w-4xl mx-auto space-y-8">
         {/* Tarifs principaux */}
         <div className="glass-box-strong p-8 rounded-lg">
-          <h3 className="text-2xl font-semibold mb-6 text-center glass-text-accent">Mes tarifs</h3>
+          <h3 className="text-2xl font-semibold mb-6 text-center text-white">Tarifs</h3>
           
-          <div className="grid md:grid-cols-2 gap-8 mb-8">
-            {/* Séance 90 minutes */}
-            <div className="text-center p-6 rounded-lg glass-box">
-              <div className="w-16 h-16 rounded-full glass-box-strong flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">🌟</span>
-              </div>
-              <h4 className="text-xl font-bold mb-2 glass-text-accent">Séance Complète</h4>
+          <div className="text-center mb-8">
+            <div className="inline-block p-6 rounded-lg glass-box max-w-md mx-auto">
+              <h4 className="text-xl font-bold mb-2 text-white">Séance Complète</h4>
               <div className="text-3xl font-bold glass-text-white mb-2">90 CHF</div>
               <p className="glass-text-white opacity-75 mb-4">Environ 1h30</p>
               <p className="glass-text-white text-sm leading-relaxed">
                 Guérison de l'âme et du corps - Accompagnement complet pour votre bien-être global
-              </p>
-            </div>
-
-            {/* Séance 2h */}
-            <div className="text-center p-6 rounded-lg glass-box">
-              <div className="w-16 h-16 rounded-full glass-box-strong flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">✨</span>
-              </div>
-              <h4 className="text-xl font-bold mb-2 glass-text-accent">Séance Approfondie</h4>
-              <div className="text-3xl font-bold glass-text-white mb-2">150 CHF</div>
-              <p className="glass-text-white opacity-75 mb-4">2h</p>
-              <p className="glass-text-white text-sm leading-relaxed">
-                Session intensive pour un travail en profondeur et une transformation durable
               </p>
             </div>
           </div>
@@ -39,12 +22,12 @@ export function SoinsTarifsSection() {
 
         {/* Types de thérapies */}
         <div className="glass-box-strong p-8 rounded-lg">
-          <h3 className="text-2xl font-semibold mb-6 glass-text-accent">Mes approches thérapeutiques</h3>
+          <h3 className="text-2xl font-semibold mb-6 text-white">Approches thérapeutiques</h3>
           
           <div className="grid md:grid-cols-2 gap-8">
             <div className="space-y-6">
               <div className="glass-box p-6 rounded-lg">
-                <h4 className="text-lg font-semibold mb-3 glass-text-accent">Thérapie psycho corporelle</h4>
+                <h4 className="text-lg font-semibold mb-3 text-white">Thérapie psycho corporelle</h4>
                 <p className="glass-text-white leading-relaxed text-sm">
                   Approche holistique qui considère l'interconnexion entre le corps et l'esprit 
                   pour libérer les tensions et retrouver l'harmonie.
@@ -52,7 +35,7 @@ export function SoinsTarifsSection() {
               </div>
               
               <div className="glass-box p-6 rounded-lg">
-                <h4 className="text-lg font-semibold mb-3 glass-text-accent">Coaching intuitif de vie</h4>
+                <h4 className="text-lg font-semibold mb-3 text-white">Coaching intuitif de vie</h4>
                 <p className="glass-text-white leading-relaxed text-sm">
                   Guidance personnalisée pour vous accompagner dans vos choix de vie 
                   et révéler votre potentiel authentique.
@@ -62,7 +45,7 @@ export function SoinsTarifsSection() {
             
             <div className="space-y-6">
               <div className="glass-box p-6 rounded-lg">
-                <h4 className="text-lg font-semibold mb-3 glass-text-accent">Libération psycho-émotionnelle</h4>
+                <h4 className="text-lg font-semibold mb-3 text-white">Libération psycho-émotionnelle</h4>
                 <p className="glass-text-white leading-relaxed text-sm">
                   Techniques douces pour identifier et libérer les blocages émotionnels 
                   qui entravent votre épanouissement.
@@ -70,7 +53,7 @@ export function SoinsTarifsSection() {
               </div>
               
               <div className="glass-box p-6 rounded-lg">
-                <h4 className="text-lg font-semibold mb-3 glass-text-accent">Rééquilibrage psycho-émotionnel</h4>
+                <h4 className="text-lg font-semibold mb-3 text-white">Rééquilibrage psycho-émotionnel</h4>
                 <p className="glass-text-white leading-relaxed text-sm">
                   Accompagnement pour identifier et réparer les causes de vos chocs émotionnels, 
                   origine de l'essentiel de vos problèmes de santé et comportementaux.
@@ -82,15 +65,15 @@ export function SoinsTarifsSection() {
 
         {/* Déroulement des séances */}
         <div className="glass-box-strong p-8 rounded-lg">
-          <h3 className="text-2xl font-semibold mb-6 glass-text-accent">Déroulement d'une séance</h3>
+          <h3 className="text-2xl font-semibold mb-6 text-white">Déroulement d'une séance</h3>
           
           <div className="space-y-6">
             <div className="flex items-start space-x-4">
               <div className="w-8 h-8 rounded-full glass-box flex items-center justify-center flex-shrink-0 mt-1">
-                <span className="text-sm font-bold glass-text-accent">1</span>
+                <span className="text-sm font-bold text-white">1</span>
               </div>
               <div>
-                <h4 className="font-semibold mb-2 glass-text-accent">Échange initial</h4>
+                <h4 className="font-semibold mb-2 text-white">Échange initial</h4>
                 <p className="glass-text-white leading-relaxed">
                   Les séances débutent par un échange qui nous permettra de comprendre vos besoins 
                   et d'adapter le soin à votre état du moment.
@@ -100,10 +83,10 @@ export function SoinsTarifsSection() {
             
             <div className="flex items-start space-x-4">
               <div className="w-8 h-8 rounded-full glass-box flex items-center justify-center flex-shrink-0 mt-1">
-                <span className="text-sm font-bold glass-text-accent">2</span>
+                <span className="text-sm font-bold text-white">2</span>
               </div>
               <div>
-                <h4 className="font-semibold mb-2 glass-text-accent">Canalisation et guidance</h4>
+                <h4 className="font-semibold mb-2 text-white">Canalisation et guidance</h4>
                 <p className="glass-text-white leading-relaxed">
                   Je procède ensuite à une canalisation qui nous permettra de poursuivre 
                   la séance de manière personnalisée, assis ou allongé selon vos préférences.
@@ -113,10 +96,10 @@ export function SoinsTarifsSection() {
             
             <div className="flex items-start space-x-4">
               <div className="w-8 h-8 rounded-full glass-box flex items-center justify-center flex-shrink-0 mt-1">
-                <span className="text-sm font-bold glass-text-accent">3</span>
+                <span className="text-sm font-bold text-white">3</span>
               </div>
               <div>
-                <h4 className="font-semibold mb-2 glass-text-accent">Le soin énergétique</h4>
+                <h4 className="font-semibold mb-2 text-white">Le soin énergétique</h4>
                 <p className="glass-text-white leading-relaxed mb-3">
                   Après quelques respirations conscientes, mes mains sont guidées sur vos maux. 
                   Vous restez habillé et conscient pendant toute la consultation.
@@ -132,12 +115,12 @@ export function SoinsTarifsSection() {
 
         {/* Informations pratiques */}
         <div className="glass-box-strong p-8 rounded-lg">
-          <h3 className="text-2xl font-semibold mb-6 glass-text-accent">Informations pratiques</h3>
+          <h3 className="text-2xl font-semibold mb-6 text-white">Informations pratiques</h3>
           
           <div className="grid md:grid-cols-3 gap-6">
             <div className="text-center glass-box p-6 rounded-lg">
               <span className="text-3xl mb-3 block">💳</span>
-              <h4 className="font-semibold mb-2 glass-text-accent">Modalités de paiement</h4>
+              <h4 className="font-semibold mb-2 text-white">Modalités de paiement</h4>
               <p className="glass-text-white text-sm">
                 Espèces, virement bancaire ou applications de paiement mobile
               </p>
@@ -145,7 +128,7 @@ export function SoinsTarifsSection() {
             
             <div className="text-center glass-box p-6 rounded-lg">
               <span className="text-3xl mb-3 block">📅</span>
-              <h4 className="font-semibold mb-2 glass-text-accent">Réservation</h4>
+              <h4 className="font-semibold mb-2 text-white">Réservation</h4>
               <p className="glass-text-white text-sm">
                 Sur rendez-vous uniquement. Annulation gratuite jusqu'à 24h avant
               </p>
@@ -153,7 +136,7 @@ export function SoinsTarifsSection() {
             
             <div className="text-center glass-box p-6 rounded-lg">
               <span className="text-3xl mb-3 block">🎯</span>
-              <h4 className="font-semibold mb-2 glass-text-accent">Suivi personnalisé</h4>
+              <h4 className="font-semibold mb-2 text-white">Suivi personnalisé</h4>
               <p className="glass-text-white text-sm">
                 Conseils et recommandations adaptés à votre évolution
               </p>
@@ -163,7 +146,7 @@ export function SoinsTarifsSection() {
 
         {/* Contact */}
         <div className="glass-box-strong p-8 rounded-lg text-center">
-          <h3 className="text-2xl font-semibold mb-4 glass-text-accent">Prendre rendez-vous</h3>
+          <h3 className="text-2xl font-semibold mb-4 text-white">Prendre rendez-vous</h3>
           <p className="glass-text-white mb-6 leading-relaxed">
             Pour toute question ou pour planifier votre séance, n'hésitez pas à me contacter. 
             Je serai ravie d'échanger avec vous sur vos besoins.
@@ -173,12 +156,12 @@ export function SoinsTarifsSection() {
             <a href="tel:+41782592246" 
                className="inline-flex items-center px-6 py-3 rounded-full glass-box hover:glass-box-strong transition-all duration-300">
               <span className="text-2xl mr-3">📞</span>
-              <span className="glass-text-accent font-medium">078 259 22 46</span>
+              <span className="text-white font-medium">078 259 22 46</span>
             </a>
             <a href="mailto:contact@cocoflow.ch" 
                className="inline-flex items-center px-6 py-3 rounded-full glass-box hover:glass-box-strong transition-all duration-300">
               <span className="text-2xl mr-3">📧</span>
-              <span className="glass-text-accent font-medium">contact@cocoflow.ch</span>
+              <span className="text-white font-medium">contact@cocoflow.ch</span>
             </a>
           </div>
         </div>
