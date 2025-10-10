@@ -128,7 +128,7 @@ export function RessourcesSection() {
           
           <div className="space-y-8">
             {/* Livre 1 */}
-            <div class="glass-box-strong p-8 rounded-lg">
+            <div className="glass-box-strong p-8 rounded-lg">
               <h4 className="text-2xl font-semibold mb-4 text-white">Les énergies et les corps subtils</h4>
               <p className="glass-text-white mb-4 italic">— Monique Schloupt</p>
               
@@ -169,7 +169,7 @@ export function RessourcesSection() {
             </div>
 
             {/* Livre 2 */}
-            <div class="glass-box-strong p-8 rounded-lg">
+            <div className="glass-box-strong p-8 rounded-lg">
               <h4 className="text-2xl font-semibold mb-4 text-white">L'âme du monde</h4>
               <p className="glass-text-white mb-4 italic">— Frédéric Lenoir</p>
               
