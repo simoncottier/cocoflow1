@@ -10,7 +10,7 @@ import "./globals.css";
 // Custom font configuration moved to globals.css
 
 export const metadata: Metadata = {
-  title: "🕊️ CocoFlow - Soins énergétiques à Lausanne et environs",
+  title: "🐋 CocoFlow - Soins énergétiques à Lausanne et environs",
   description: "Retrouver l'équilibre entre corps et esprit. Soins énergétiques personnalisés pour rétablir l'harmonie intérieure, libérer les tensions et favoriser le mieux-être global.",
   openGraph: {
     images: [HOME_OG_IMAGE_URL],
