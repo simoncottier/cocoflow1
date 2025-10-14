@@ -15,7 +15,7 @@ export function Sidebar({ activeSection, onSectionChange }: SidebarProps) {
     { id: 'parcours', label: 'Parcours', icon: '' },
     { id: 'soins-tarifs', label: 'Soins et tarifs', icon: '' },
     { id: 'ressources', label: 'Ressources', icon: '' },
-    { id: 'contact', label: 'Contact', icon: '' },
+    { id: 'contact', label: 'Contact & Rendez-vous', icon: '' },
   ];
 
   return (
@@ -48,7 +48,7 @@ export function Sidebar({ activeSection, onSectionChange }: SidebarProps) {
                 className="w-32 h-24 object-contain"
               />
             </div>
-            <h2 className="text-xl font-bold text-white mb-1">CocoFlow</h2>
+            <h2 className="text-2xl font-bold text-white mb-1 font-ephesis">CocoFlow</h2>
             <p className="text-sm text-gray-300">Soins énergétiques</p>
           </div>
 

@@ -41,17 +41,9 @@ export function ContactSection() {
 
   return (
     <section className="mb-16">
-      <h2 className="text-3xl font-bold mb-8 text-white text-center">Contact</h2>
-      
       <div className="max-w-4xl mx-auto space-y-8">
         {/* Informations de contact */}
         <div className="glass-box-strong p-8 rounded-lg">
-          <h3 className="text-2xl font-semibold mb-6 text-center text-white">Prenons contact</h3>
-          <p className="glass-text-white text-center mb-8 leading-relaxed">
-            N'hésitez pas à me contacter pour toute question ou pour prendre rendez-vous. 
-            Je serais ravie d'échanger avec vous sur vos besoins et de vous accompagner dans votre cheminement.
-          </p>
-          
           <div className="grid md:grid-cols-3 gap-8">
             {/* Adresse */}
             <div className="text-center glass-box p-6 rounded-lg">
@@ -246,20 +238,6 @@ export function ContactSection() {
           </div>
         </div>
 
-        {/* Photo de la plage */}
-        <div className="glass-box-strong p-8 rounded-lg text-center">
-          <h3 className="text-2xl font-semibold mb-6 text-white">Notre environnement</h3>
-          <div className="mb-4">
-            <img 
-              src="/IMG_1626.jpg" 
-              alt="Environnement CocoFlow près du lac" 
-              className="w-full h-64 object-cover rounded-lg shadow-md"
-            />
-          </div>
-          <p className="glass-text-white leading-relaxed">
-            Un cadre naturel apaisant près du lac, parfait pour favoriser la détente et l'introspection lors de nos séances.
-          </p>
-        </div>
       </div>
     </section>
   );

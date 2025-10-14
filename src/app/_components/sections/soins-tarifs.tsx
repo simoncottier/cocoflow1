@@ -1,8 +1,6 @@
 export function SoinsTarifsSection() {
   return (
     <section className="mb-16">
-      <h2 className="text-3xl font-bold mb-8 text-white text-center">Soins et tarifs</h2>
-      
       <div className="max-w-4xl mx-auto space-y-8">
         {/* Tarifs principaux */}
         <div className="glass-box-strong p-8 rounded-lg">
@@ -27,36 +25,32 @@ export function SoinsTarifsSection() {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="space-y-6">
               <div className="glass-box p-6 rounded-lg">
-                <h4 className="text-lg font-semibold mb-3 text-white">Thérapie psycho corporelle</h4>
+                <h4 className="text-lg font-semibold mb-3 text-white">Thérapie psychocorporelle</h4>
                 <p className="glass-text-white leading-relaxed text-sm">
-                  Approche holistique qui considère l'interconnexion entre le corps et l'esprit 
-                  pour libérer les tensions et retrouver l'harmonie.
+                  Connexion à votre âme pour libérer vos blocages physiques et émotionnels
                 </p>
               </div>
               
               <div className="glass-box p-6 rounded-lg">
-                <h4 className="text-lg font-semibold mb-3 text-white">Coaching intuitif de vie</h4>
+                <h4 className="text-lg font-semibold mb-3 text-white">Réalisation de soi</h4>
                 <p className="glass-text-white leading-relaxed text-sm">
-                  Guidance personnalisée pour vous accompagner dans vos choix de vie 
-                  et révéler votre potentiel authentique.
+                  Identifier les masques que vous portez et vous en libérer
                 </p>
               </div>
             </div>
             
             <div className="space-y-6">
               <div className="glass-box p-6 rounded-lg">
-                <h4 className="text-lg font-semibold mb-3 text-white">Libération psycho-émotionnelle</h4>
+                <h4 className="text-lg font-semibold mb-3 text-white">Soins énergétiques et magnétisme</h4>
                 <p className="glass-text-white leading-relaxed text-sm">
-                  Techniques douces pour identifier et libérer les blocages émotionnels 
-                  qui entravent votre épanouissement.
+                  Harmonisation et rééquilibrage des chakras
                 </p>
               </div>
               
               <div className="glass-box p-6 rounded-lg">
-                <h4 className="text-lg font-semibold mb-3 text-white">Rééquilibrage psycho-émotionnel</h4>
+                <h4 className="text-lg font-semibold mb-3 text-white">Coaching intuitif</h4>
                 <p className="glass-text-white leading-relaxed text-sm">
-                  Accompagnement pour identifier et réparer les causes de vos chocs émotionnels, 
-                  origine de l'essentiel de vos problèmes de santé et comportementaux.
+                  Guidance pour vous recentrer, calmer le mental et vous révéler
                 </p>
               </div>
             </div>
@@ -73,9 +67,9 @@ export function SoinsTarifsSection() {
                 <span className="text-sm font-bold text-white">1</span>
               </div>
               <div>
-                <h4 className="font-semibold mb-2 text-white">Échange initial</h4>
+                <h4 className="font-semibold mb-2 text-white">Échange</h4>
                 <p className="glass-text-white leading-relaxed">
-                  Les séances débutent par un échange qui nous permettra de comprendre vos besoins 
+                  Les séances débutent par un échange qui nous permet de comprendre vos besoins 
                   et d'adapter le soin à votre état du moment.
                 </p>
               </div>
@@ -88,8 +82,8 @@ export function SoinsTarifsSection() {
               <div>
                 <h4 className="font-semibold mb-2 text-white">Canalisation et guidance</h4>
                 <p className="glass-text-white leading-relaxed">
-                  Je procède ensuite à une canalisation qui nous permettra de poursuivre 
-                  la séance de manière personnalisée, assis ou allongé selon vos préférences.
+                  Je procède ensuite à une canalisation qui nous permet de poursuivre 
+                  la séance de manière personnalisée, assis ou allongé pour votre confort.
                 </p>
               </div>
             </div>
@@ -101,8 +95,7 @@ export function SoinsTarifsSection() {
               <div>
                 <h4 className="font-semibold mb-2 text-white">Le soin énergétique</h4>
                 <p className="glass-text-white leading-relaxed mb-3">
-                  Après quelques respirations conscientes, mes mains sont guidées sur vos maux. 
-                  Vous restez habillé et conscient pendant toute la consultation.
+                  Après quelques respirations conscientes, mes mains sont guidées sur vos maux pour les libérer par magnétisme et par un partage des messages reçus.
                 </p>
                 <p className="glass-text-white leading-relaxed text-sm italic">
                   Les séances se déroulent dans un cadre bienveillant et sécurisé, 
@@ -117,39 +110,39 @@ export function SoinsTarifsSection() {
         <div className="glass-box-strong p-8 rounded-lg">
           <h3 className="text-2xl font-semibold mb-6 text-white">Informations pratiques</h3>
           
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 gap-6">
             <div className="text-center glass-box p-6 rounded-lg">
               <span className="text-3xl mb-3 block">💳</span>
               <h4 className="font-semibold mb-2 text-white">Modalités de paiement</h4>
               <p className="glass-text-white text-sm">
-                Espèces, virement bancaire ou applications de paiement mobile
+                Le règlement se fait en espèces ou par Twint en fin de séance
               </p>
             </div>
             
             <div className="text-center glass-box p-6 rounded-lg">
               <span className="text-3xl mb-3 block">📅</span>
               <h4 className="font-semibold mb-2 text-white">Réservation</h4>
-              <p className="glass-text-white text-sm">
+              <p className="glass-text-white text-sm mb-3">
                 Sur rendez-vous uniquement. Annulation gratuite jusqu'à 24h avant
               </p>
-            </div>
-            
-            <div className="text-center glass-box p-6 rounded-lg">
-              <span className="text-3xl mb-3 block">🎯</span>
-              <h4 className="font-semibold mb-2 text-white">Suivi personnalisé</h4>
-              <p className="glass-text-white text-sm">
-                Conseils et recommandations adaptés à votre évolution
-              </p>
+              <a 
+                href="https://wa.me/41782592246" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-4 py-2 rounded-lg glass-box-strong hover:opacity-90 transition-all duration-300"
+              >
+                <span className="text-white text-sm font-medium">Réserver via WhatsApp</span>
+              </a>
             </div>
           </div>
         </div>
 
         {/* Contact */}
         <div className="glass-box-strong p-8 rounded-lg text-center">
-          <h3 className="text-2xl font-semibold mb-4 text-white">Prendre rendez-vous</h3>
+          <h3 className="text-2xl font-semibold mb-4 text-white">Rendez-vous</h3>
           <p className="glass-text-white mb-6 leading-relaxed">
             Pour toute question ou pour planifier votre séance, n'hésitez pas à me contacter. 
-            Je serai ravie d'échanger avec vous sur vos besoins.
+            Je serai ravie d'échanger avec vous.
           </p>
           
           <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8">

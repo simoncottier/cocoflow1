@@ -1,8 +1,6 @@
 export function RessourcesSection() {
   return (
     <section className="mb-16">
-      <h2 className="text-3xl font-bold mb-8 text-white text-center">Ressources</h2>
-      
       <div className="max-w-4xl mx-auto space-y-8">
         {/* Introduction */}
         <div className="glass-box-strong p-8 rounded-lg">
@@ -65,11 +63,18 @@ export function RessourcesSection() {
           
           <div className="space-y-6">
             <div className="glass-box p-6 rounded-lg">
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0">
+                  <img 
+                    src="/tistryia.jpeg" 
+                    alt="Chaîne YouTube Tistrya" 
+                    className="w-16 h-16 object-cover rounded-lg"
+                  />
+                </div>
               <div className="flex-1">
                   <h4 className="text-lg font-semibold mb-2 text-white">Chaîne YouTube Tistrya</h4>
                   <p className="glass-text-white leading-relaxed mb-3">
-                    Des documentaires où des personnes témoignent de diverses expériences. 
-                    Peu importe ce que vous vivez, une thématique sera peut-être porteuse de sens, d'identification...
+                    Des documentaires où des personnes témoignent de leurs expériences en lien avec l'invisible.
                   </p>
                   <a 
                     href="https://www.youtube.com/@Tistrya/featured" 
@@ -79,10 +84,19 @@ export function RessourcesSection() {
                   >
                     <span className="text-white font-medium">Découvrir la chaîne</span>
                   </a>
+                </div>
               </div>
             </div>
 
             <div className="glass-box p-6 rounded-lg">
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0">
+                  <img 
+                    src="/puissanceintention.jpeg" 
+                    alt="La puissance de l'intention" 
+                    className="w-16 h-16 object-cover rounded-lg"
+                  />
+                </div>
               <div className="flex-1">
                   <h4 className="text-lg font-semibold mb-2 text-white">La puissance de l'intention</h4>
                   <p className="glass-text-white leading-relaxed mb-3">
@@ -96,10 +110,19 @@ export function RessourcesSection() {
                   >
                     <span className="text-white font-medium">Regarder le documentaire</span>
                   </a>
+                </div>
               </div>
             </div>
 
             <div className="glass-box p-6 rounded-lg">
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0">
+                  <img 
+                    src="/ame.jpeg" 
+                    alt="Film L'âme" 
+                    className="w-16 h-16 object-cover rounded-lg"
+                  />
+                </div>
               <div className="flex-1">
                   <h4 className="text-lg font-semibold mb-2 text-white">Film "L'âme"</h4>
                   <p className="glass-text-white leading-relaxed mb-3">
@@ -113,6 +136,92 @@ export function RessourcesSection() {
                   >
                     <span className="text-white font-medium">Regarder le film</span>
                   </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Podcasts */}
+        <div className="glass-box-strong p-8 rounded-lg">
+          <h3 className="text-2xl font-semibold mb-6 text-white">Podcasts</h3>
+          
+          <div className="space-y-6">
+            <div className="glass-box p-6 rounded-lg">
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0">
+                  <img 
+                    src="/anne_ghesquiere.png" 
+                    alt="Podcast Métamorphose Anne Ghesquière" 
+                    className="w-16 h-16 object-cover rounded-lg"
+                  />
+                </div>
+                <div className="flex-1">
+                  <h4 className="text-lg font-semibold mb-2 text-white">Métamorphose - Anne Ghesquière</h4>
+                  <p className="glass-text-white leading-relaxed mb-3">
+                    Conversations inspirantes et conseils d'experts sur le bien-être, la santé mentale, la psychologie et l'alimentation.
+                  </p>
+                  <a 
+                    href="https://podcasts.apple.com/ch/podcast/m%C3%A9tamorphose-%C3%A9veille-ta-conscience/id1448632119" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center px-4 py-2 rounded-lg glass-box hover:glass-box-strong transition-all duration-300"
+                  >
+                    <span className="text-white font-medium">Écouter sur Apple Podcasts</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="glass-box p-6 rounded-lg">
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0">
+                  <img 
+                    src="/maud_ankaoua.png" 
+                    alt="Podcast Ces questions que tout le monde se pose Maud Ankaoua" 
+                    className="w-16 h-16 object-cover rounded-lg"
+                  />
+                </div>
+                <div className="flex-1">
+                  <h4 className="text-lg font-semibold mb-2 text-white">Ces questions que tout le monde se pose - Maud Ankaoua</h4>
+                  <p className="glass-text-white leading-relaxed mb-3">
+                    Des épisodes qui questionnent nos émotions, leurs messages et comment atteindre le bonheur.
+                  </p>
+                  <a 
+                    href="https://podcasts.apple.com/ch/podcast/ces-questions-que-tout-le-monde-se-pose/id1583904652" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center px-4 py-2 rounded-lg glass-box hover:glass-box-strong transition-all duration-300"
+                  >
+                    <span className="text-white font-medium">Écouter sur Apple Podcasts</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="glass-box p-6 rounded-lg">
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0">
+                  <img 
+                    src="/entredeuxmonde.png" 
+                    alt="Podcast Entre deux Mondes Xavier Murez" 
+                    className="w-16 h-16 object-cover rounded-lg"
+                  />
+                </div>
+                <div className="flex-1">
+                  <h4 className="text-lg font-semibold mb-2 text-white">Entre deux Mondes - Xavier Murez</h4>
+                  <p className="glass-text-white leading-relaxed mb-3">
+                    Des épisodes sous forme d'entretien avec des personnes qui ont fait du lien à l'invisible un métier, une passion.
+                  </p>
+                  <a 
+                    href="https://podcasts.apple.com/ch/podcast/entre-deux-mondes-il-%C3%A9tait-une-fois-lau-del%C3%A0/id1600478368" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center px-4 py-2 rounded-lg glass-box hover:glass-box-strong transition-all duration-300"
+                  >
+                    <span className="text-white font-medium">Écouter sur Apple Podcasts</span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -122,7 +231,7 @@ export function RessourcesSection() {
         <div className="glass-box-strong p-8 rounded-lg">
           <h3 className="text-2xl font-semibold mb-6 text-white">Lectures inspirantes</h3>
           <p className="glass-text-white mb-6 italic text-center">
-            Les ouvrages qui m'ont marquée et la synthèse personnelle retirée que je choisis de relire
+            Les ouvrages qui m'ont marquée et la synthèse personnelle retirée que j'aime relire
             régulièrement pour me les rappeler.
           </p>
           
@@ -176,35 +285,109 @@ export function RessourcesSection() {
               <div className="space-y-4">
                 <blockquote className="glass-box p-4 rounded border-l-4 border-teal-400">
                   <p className="glass-text-white italic leading-relaxed text-sm">
-                    "Le superflu est onéreux mais l'essentiel est offert."
+                    « Le superflu est onéreux mais l'essentiel est offert »
                   </p>
                 </blockquote>
                 
                 <blockquote className="glass-box p-4 rounded border-l-4 border-teal-400">
                   <p className="glass-text-white italic leading-relaxed text-sm">
-                    "Le contentement apporte le bonheur, même dans la pauvreté. L'insatisfaction
-                    apporte le malheur, même dans la richesse."
+                    « Le contentement apporte le bonheur, même dans la pauvreté. L'insatisfaction apporte le malheur, même dans la richesse »
                   </p>
                 </blockquote>
                 
                 <blockquote className="glass-box p-4 rounded border-l-4 border-teal-400">
                   <p className="glass-text-white italic leading-relaxed text-sm">
-                    "Soyez le changement que vous voulez dans le monde."
+                    « Le bonheur c'est de continuer de désirer ce que l'on possède déjà »
                   </p>
                 </blockquote>
                 
                 <blockquote className="glass-box p-4 rounded border-l-4 border-teal-400">
                   <p className="glass-text-white italic leading-relaxed text-sm">
-                    "Nous sommes tous plus ou moins prisonniers de nos peurs, de nos pulsions, de
-                    notre caractère, de nos habitudes, de nos émotions. Nous sommes les seuls à pouvoir 
-                    nous libérer de cette prison intérieure, on ne naît pas libre, on le devient."
+                    « La méditation relie le corps, le psychisme et l'esprit »
                   </p>
                 </blockquote>
                 
                 <blockquote className="glass-box p-4 rounded border-l-4 border-teal-400">
                   <p className="glass-text-white italic leading-relaxed text-sm">
-                    "Nourris ce qu'il y a de bon, de juste, de lumineux en toi, affame ce qu'il y a de
-                    mauvais, de négatif et d'obscur."
+                    « Soyez le changement que vous voulez dans le monde »
+                  </p>
+                </blockquote>
+                
+                <blockquote className="glass-box p-4 rounded border-l-4 border-teal-400">
+                  <p className="glass-text-white italic leading-relaxed text-sm">
+                    « Nous sommes tous plus ou moins prisonniers de nos peurs, de nos pulsions, de notre caractère, de nos habitudes, de nos émotions. »
+                  </p>
+                </blockquote>
+                
+                <blockquote className="glass-box p-4 rounded border-l-4 border-teal-400">
+                  <p className="glass-text-white italic leading-relaxed text-sm">
+                    « Nous sommes les seuls à pouvoir se libérer de cette prison intérieure, on ne nait pas livre, on le devient »
+                  </p>
+                </blockquote>
+                
+                <blockquote className="glass-box p-4 rounded border-l-4 border-teal-400">
+                  <p className="glass-text-white italic leading-relaxed text-sm">
+                    « Il y aura toujours qu'un pour y trouver à redire »
+                  </p>
+                </blockquote>
+                
+                <blockquote className="glass-box p-4 rounded border-l-4 border-teal-400">
+                  <p className="glass-text-white italic leading-relaxed text-sm">
+                    « Ne fais pas à autrui ce que tu ne veux pas que l'on te fasse. »
+                  </p>
+                </blockquote>
+                
+                <blockquote className="glass-box p-4 rounded border-l-4 border-teal-400">
+                  <p className="glass-text-white italic leading-relaxed text-sm">
+                    « Nourris ce qu'il y a de bon, de juste, de lumineux en toi, affame ce qu'il y a de mauvais, de négatif et d'obscur. »
+                  </p>
+                </blockquote>
+                
+                <blockquote className="glass-box p-4 rounded border-l-4 border-teal-400">
+                  <p className="glass-text-white italic leading-relaxed text-sm">
+                    « Prenez garde à la paresse, la paresse n'est pas le repos, c'est l'absence de force et de motivation, c'est le refus de l'effort qui donne l'illusion du bien-être. Notre corps et notre âme ont besoin d'activité, de travail et d'action pour s'épanouir. La paresse nous alourdit et nous décompose. »
+                  </p>
+                </blockquote>
+                
+                <blockquote className="glass-box p-4 rounded border-l-4 border-teal-400">
+                  <p className="glass-text-white italic leading-relaxed text-sm">
+                    « C'est ainsi qu'il faut concevoir notre relation aux personnes et aux choses ; un juste équilibre entre attachement et détachement. »
+                  </p>
+                </blockquote>
+                
+                <blockquote className="glass-box p-4 rounded border-l-4 border-teal-400">
+                  <p className="glass-text-white italic leading-relaxed text-sm">
+                    « Il nous faut donc apprendre à nous attacher de tout notre cœur aux êtres qui nous sont chers, tout en cultivant le détachement de l'esprit, qui crée une certaine distance avec nos émotions et nous rappelle sans cesse que tout est éphémère, que nul ne nous appartient. »
+                  </p>
+                </blockquote>
+                
+                <blockquote className="glass-box p-4 rounded border-l-4 border-teal-400">
+                  <p className="glass-text-white italic leading-relaxed text-sm">
+                    « Les pensées créent une énergie et expriment une intention. »
+                  </p>
+                </blockquote>
+                
+                <blockquote className="glass-box p-4 rounded border-l-4 border-teal-400">
+                  <p className="glass-text-white italic leading-relaxed text-sm">
+                    « Une seule parole peut anéantir une vie comme lui redonner sens. Apprenez à maitriser vos paroles. Pensez aux conséquences de vos propos. »
+                  </p>
+                </blockquote>
+                
+                <blockquote className="glass-box p-4 rounded border-l-4 border-teal-400">
+                  <p className="glass-text-white italic leading-relaxed text-sm">
+                    « Toute la sagesse du monde tient en deux mots, vivre l'instant »
+                  </p>
+                </blockquote>
+                
+                <blockquote className="glass-box p-4 rounded border-l-4 border-teal-400">
+                  <p className="glass-text-white italic leading-relaxed text-sm">
+                    « Tout est pour le mieux »
+                  </p>
+                </blockquote>
+                
+                <blockquote className="glass-box p-4 rounded border-l-4 border-teal-400">
+                  <p className="glass-text-white italic leading-relaxed text-sm">
+                    « Mets-toi en marche et vas vers toi-même ; l'univers te sourira. »
                   </p>
                 </blockquote>
               </div>

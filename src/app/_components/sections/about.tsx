@@ -1,44 +1,32 @@
 export function AboutSection() {
   return (
     <section className="mb-16">
-      <h2 className="text-3xl font-bold mb-8 text-white text-center">À propos de CocoFlow</h2>
-      
       <div className="max-w-4xl mx-auto space-y-8">
         {/* Photo Gallery Section */}
         <div className="glass-box-strong p-8 rounded-lg">
           <h3 className="text-2xl font-semibold mb-6 text-center text-white">Qui suis-je ?</h3>
-          <div className="grid md:grid-cols-2 gap-6 mb-6">
-            <div className="relative group">
+          <div className="flex justify-center mb-6">
+            <div className="relative group w-1/2">
               <img 
                 src="/IMG_1625.jpg" 
                 alt="Photo professionnelle" 
                 className="w-full object-contain rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
               />
             </div>
-            <div className="relative group">
-              <div className="w-full h-64 rounded-lg border-2 border-dashed border-gray-400 flex items-center justify-center glass-box">
-                <p className="glass-text-white text-center">
-                  Espace réservé pour<br />
-                  la photo du lieu
-                </p>
-              </div>
-            </div>
           </div>
-          <p className="glass-text-white leading-relaxed text-center">
-            Bienvenue dans mon univers dédié au bien-être et à l'harmonie. Je suis là pour vous accompagner 
-            dans votre parcours vers l'équilibre énergétique et la sérénité intérieure.
-          </p>
         </div>
 
         <div className="glass-box-strong p-8 rounded-lg">
           <h3 className="text-2xl font-semibold mb-4 text-white">Approche</h3>
           <p className="glass-text-white leading-relaxed mb-4">
-            Passionnée par l'énergétique depuis plusieurs années, j'accompagne les personnes dans leur quête d'équilibre 
-            et de bien-être. Mon approche holistique considère l'être humain dans sa globalité : corps, mental et esprit.
+            Je crois profondément que chaque être possède en lui les ressources nécessaires à sa guérison et son épanouissement. 
+            Mon rôle est de vous accompagner en canalisant les messages qui vous sont destinés pour retrouver une forme de sérénité.
+          </p>
+          <p className="glass-text-white leading-relaxed mb-4">
+            Mon approche holistique considère l'être dans sa globalité : corps, mental et esprit.
           </p>
           <p className="glass-text-white leading-relaxed">
-            Chaque personne étant unique, j'adapte mes soins selon vos besoins spécifiques et votre rythme, 
-            dans un cadre bienveillant et sans jugement.
+            Nous sommes tous uniques, j'adapte mes soins selon vos besoins, en suivant votre rythme, dans un cadre bienveillant et sans jugement.
           </p>
         </div>
 
@@ -47,17 +35,15 @@ export function AboutSection() {
           <h3 className="text-2xl font-semibold mb-6 text-center text-white">Spécialités</h3>
           <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div className="text-center">
-              <h4 className="text-xl font-semibold mb-3 text-white">Clair-ressenti</h4>
+              <h4 className="text-xl font-semibold mb-3 text-white">Soins énergétiques et magnétisme</h4>
               <p className="glass-text-white leading-relaxed">
-                Perception intuitive des énergies subtiles pour identifier les déséquilibres 
-                et guider la guérison naturelle de votre être.
+                Harmonisation des chakras, rééquilibrage et recentrage
               </p>
             </div>
             <div className="text-center">
-              <h4 className="text-xl font-semibold mb-3 text-white">Lecture de l'âme</h4>
+              <h4 className="text-xl font-semibold mb-3 text-white">Thérapie psycho-émotionnelle</h4>
               <p className="glass-text-white leading-relaxed">
-                Connexion profonde avec votre essence pour révéler les messages 
-                et les chemins d'évolution de votre âme.
+                Trouver l'origine des maux et les libérer
               </p>
             </div>
           </div>
@@ -66,9 +52,6 @@ export function AboutSection() {
         {/* Problématiques traitées avec bulles */}
         <div className="glass-box-strong p-8 rounded-lg relative overflow-hidden">
           <h3 className="text-2xl font-semibold mb-6 text-center text-white">Ce que nous pouvons transformer ensemble</h3>
-          <p className="glass-text-white text-center mb-8 leading-relaxed">
-            Comme l'oxygène qui se libère dans l'eau, laissons vos blocages se dissoudre naturellement
-          </p>
           
           <div className="relative min-h-[300px] flex items-center justify-center">
             {/* Bulles flottantes */}
@@ -86,6 +69,9 @@ export function AboutSection() {
             </div>
             <div className="bubble bubble-5">
               <span>Perte de sens</span>
+            </div>
+            <div className="bubble bubble-6">
+              <span>Conscience de soi</span>
             </div>
           </div>
         </div>
