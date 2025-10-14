@@ -33,8 +33,18 @@ export default function Index() {
     <div className="flex">
       <main className="flex-1 lg:mr-64">
         <Container>
-          <div className="pt-16 lg:pt-0">
-            {renderSection()}
+          <div className="pt-8 lg:pt-8">
+            {/* Titre CocoFlow */}
+            <div className="text-center mb-8 lg:mb-12">
+              <h1 className="font-ephesis text-6xl lg:text-8xl text-white mb-2 tracking-wide">
+                CocoFlow
+              </h1>
+              <div className="w-24 h-0.5 bg-gradient-to-r from-transparent via-white to-transparent mx-auto opacity-60"></div>
+            </div>
+            
+            <div className="pt-8 lg:pt-0">
+              {renderSection()}
+            </div>
           </div>
         </Container>
       </main>
