@@ -1,0 +1,31 @@
+<svg width="64" height="80" viewBox="0 0 64 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bookGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#357ABD;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2C5282;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Couverture du livre -->
+  <rect width="64" height="80" rx="4" fill="url(#bookGrad1)" stroke="#2C5282" stroke-width="1"/>
+  
+  <!-- Titre stylisé -->
+  <rect x="6" y="8" width="52" height="20" rx="2" fill="rgba(255,255,255,0.1)"/>
+  <text x="32" y="16" font-family="serif" font-size="8" fill="white" text-anchor="middle" font-weight="bold">ÉNERGIES</text>
+  <text x="32" y="24" font-family="serif" font-size="6" fill="white" text-anchor="middle">&amp; CORPS SUBTILS</text>
+  
+  <!-- Symbole énergétique au centre -->
+  <circle cx="32" cy="45" r="12" stroke="rgba(255,255,255,0.6)" stroke-width="1.5" fill="none"/>
+  <circle cx="32" cy="45" r="8" stroke="rgba(255,255,255,0.4)" stroke-width="1" fill="none"/>
+  <circle cx="32" cy="45" r="4" stroke="rgba(255,255,255,0.8)" stroke-width="1" fill="none"/>
+  <circle cx="32" cy="45" r="1.5" fill="white"/>
+  
+  <!-- Rayons énergétiques -->
+  <line x1="32" y1="30" x2="32" y2="35" stroke="rgba(255,255,255,0.7)" stroke-width="1"/>
+  <line x1="32" y1="55" x2="32" y2="60" stroke="rgba(255,255,255,0.7)" stroke-width="1"/>
+  <line x1="17" y1="45" x2="22" y2="45" stroke="rgba(255,255,255,0.7)" stroke-width="1"/>
+  <line x1="42" y1="45" x2="47" y2="45" stroke="rgba(255,255,255,0.7)" stroke-width="1"/>
+  
+  <!-- Auteur -->
+  <text x="32" y="70" font-family="serif" font-size="5" fill="rgba(255,255,255,0.9)" text-anchor="middle">Monique Schloupt</text>
+</svg>

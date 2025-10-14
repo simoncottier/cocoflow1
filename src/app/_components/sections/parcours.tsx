@@ -1,7 +1,7 @@
 export function ParcoursSection() {
   return (
     <section className="mb-16">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-4xl mx-auto pt-8">
         <div className="glass-box-strong p-8 rounded-lg">
           <div className="glass-text-white leading-relaxed space-y-4">
             <p>

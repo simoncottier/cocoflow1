@@ -45,10 +45,10 @@ export function Sidebar({ activeSection, onSectionChange }: SidebarProps) {
               <img 
                 src="/cocoflow-logo.png" 
                 alt="CocoFlow Logo" 
-                className="w-32 h-24 object-contain"
+                className="w-40 h-32 object-contain"
               />
             </div>
-            <h2 className="text-2xl font-bold text-white mb-1 font-ephesis">CocoFlow</h2>
+            <h2 className="text-3xl font-bold text-white mb-1 font-ephesis">CocoFlow</h2>
             <p className="text-sm text-gray-300">Soins énergétiques</p>
           </div>
 

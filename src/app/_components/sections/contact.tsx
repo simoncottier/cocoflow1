@@ -41,7 +41,7 @@ export function ContactSection() {
 
   return (
     <section className="mb-16">
-      <div className="max-w-4xl mx-auto space-y-8">
+      <div className="max-w-4xl mx-auto space-y-8 pt-8">
         {/* Informations de contact */}
         <div className="glass-box-strong p-8 rounded-lg">
           <div className="grid md:grid-cols-3 gap-8">

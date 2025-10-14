@@ -1,7 +1,7 @@
 export function AboutSection() {
   return (
     <section className="mb-16">
-      <div className="max-w-4xl mx-auto space-y-8">
+      <div className="max-w-4xl mx-auto space-y-8 pt-8">
         {/* Photo Gallery Section */}
         <div className="glass-box-strong p-8 rounded-lg">
           <h3 className="text-2xl font-semibold mb-6 text-center text-white">Qui suis-je ?</h3>

@@ -1,7 +1,17 @@
+"use client";
+
+import { useState } from 'react';
+
 export function RessourcesSection() {
+  const [openBook, setOpenBook] = useState<string | null>(null);
+
+  const toggleBook = (bookId: string) => {
+    setOpenBook(openBook === bookId ? null : bookId);
+  };
+
   return (
     <section className="mb-16">
-      <div className="max-w-4xl mx-auto space-y-8">
+      <div className="max-w-4xl mx-auto space-y-8 pt-8">
         {/* Introduction */}
         <div className="glass-box-strong p-8 rounded-lg">
           <div className="text-center mb-6">
@@ -19,6 +29,14 @@ export function RessourcesSection() {
           
           <div className="space-y-6">
             <div className="glass-box p-6 rounded-lg">
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0">
+                  <img 
+                    src="/conscience-pour-tous-logo.svg" 
+                    alt="Logo Conscience pour tous" 
+                    className="w-16 h-16 object-cover rounded-lg"
+                  />
+                </div>
               <div className="flex-1">
                   <h4 className="text-lg font-semibold mb-2 text-white">Conscience pour tous</h4>
                   <p className="glass-text-white leading-relaxed mb-3">
@@ -34,10 +52,19 @@ export function RessourcesSection() {
                   >
                     <span className="text-white font-medium">Télécharger sur App Store</span>
                   </a>
+                </div>
               </div>
             </div>
 
             <div className="glass-box p-6 rounded-lg">
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0">
+                  <img 
+                    src="/insight-timer-logo.svg" 
+                    alt="Logo Insight Timer" 
+                    className="w-16 h-16 object-cover rounded-lg"
+                  />
+                </div>
               <div className="flex-1">
                   <h4 className="text-lg font-semibold mb-2 text-white">Insight Timer</h4>
                   <p className="glass-text-white leading-relaxed mb-3">
@@ -52,6 +79,7 @@ export function RessourcesSection() {
                   >
                     <span className="text-white font-medium">Télécharger sur App Store</span>
                   </a>
+                </div>
               </div>
             </div>
           </div>
@@ -227,7 +255,7 @@ export function RessourcesSection() {
           </div>
         </div>
 
-        {/* Lectures - Les énergies et les corps subtils */}
+        {/* Lectures inspirantes avec menus déroulants */}
         <div className="glass-box-strong p-8 rounded-lg">
           <h3 className="text-2xl font-semibold mb-6 text-white">Lectures inspirantes</h3>
           <p className="glass-text-white mb-6 italic text-center">
@@ -235,13 +263,42 @@ export function RessourcesSection() {
             régulièrement pour me les rappeler.
           </p>
           
-          <div className="space-y-8">
-            {/* Livre 1 - Fixed className */}
-            <div className="glass-box-strong p-8 rounded-lg">
-              <h4 className="text-2xl font-semibold mb-4 text-white">Les énergies et les corps subtils</h4>
-              <p className="glass-text-white mb-4 italic">— Monique Schloupt</p>
+          <div className="space-y-6">
+            {/* Livre 1 - Les énergies et les corps subtils */}
+            <div className="glass-box p-6 rounded-lg">
+              <button
+                onClick={() => toggleBook('book1')}
+                className="w-full text-left flex items-start justify-between hover:bg-opacity-80 transition-all duration-300"
+              >
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0">
+                    <img 
+                      src="/energies-corps-subtils-cover.svg" 
+                      alt="Couverture Les énergies et les corps subtils" 
+                      className="w-12 h-16 object-cover rounded"
+                    />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-semibold mb-2 text-white">Les énergies et les corps subtils</h4>
+                    <p className="glass-text-white italic text-sm">— Monique Schloupt</p>
+                  </div>
+                </div>
+                <div className="ml-4">
+                  <svg 
+                    className={`w-6 h-6 text-white transform transition-transform duration-300 ${
+                      openBook === 'book1' ? 'rotate-180' : ''
+                    }`}
+                    fill="none" 
+                    stroke="currentColor" 
+                    viewBox="0 0 24 24"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </div>
+              </button>
               
-              <div className="space-y-4">
+              {openBook === 'book1' && (
+                <div className="mt-6 space-y-4 animate-fade-in">
                 <blockquote className="glass-box p-4 rounded border-l-4 border-blue-400">
                   <p className="glass-text-white italic leading-relaxed text-sm">
                     "L'Aura est la répercussion vibratoire de toutes les fréquences émises par tous
@@ -275,14 +332,44 @@ export function RessourcesSection() {
                   </p>
                 </blockquote>
               </div>
+              )}
             </div>
 
-            {/* Livre 2 */}
-            <div className="glass-box-strong p-8 rounded-lg">
-              <h4 className="text-2xl font-semibold mb-4 text-white">L'âme du monde</h4>
-              <p className="glass-text-white mb-4 italic">— Frédéric Lenoir</p>
+            {/* Livre 2 - L'âme du monde */}
+            <div className="glass-box p-6 rounded-lg">
+              <button
+                onClick={() => toggleBook('book2')}
+                className="w-full text-left flex items-start justify-between hover:bg-opacity-80 transition-all duration-300"
+              >
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0">
+                    <img 
+                      src="/ame-du-monde-cover.svg" 
+                      alt="Couverture L'âme du monde" 
+                      className="w-12 h-16 object-cover rounded"
+                    />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-semibold mb-2 text-white">L'âme du monde</h4>
+                    <p className="glass-text-white italic text-sm">— Frédéric Lenoir</p>
+                  </div>
+                </div>
+                <div className="ml-4">
+                  <svg 
+                    className={`w-6 h-6 text-white transform transition-transform duration-300 ${
+                      openBook === 'book2' ? 'rotate-180' : ''
+                    }`}
+                    fill="none" 
+                    stroke="currentColor" 
+                    viewBox="0 0 24 24"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </div>
+              </button>
               
-              <div className="space-y-4">
+              {openBook === 'book2' && (
+                <div className="mt-6 space-y-4 animate-fade-in">
                 <blockquote className="glass-box p-4 rounded border-l-4 border-teal-400">
                   <p className="glass-text-white italic leading-relaxed text-sm">
                     « Le superflu est onéreux mais l'essentiel est offert »
@@ -321,13 +408,13 @@ export function RessourcesSection() {
                 
                 <blockquote className="glass-box p-4 rounded border-l-4 border-teal-400">
                   <p className="glass-text-white italic leading-relaxed text-sm">
-                    « Nous sommes les seuls à pouvoir se libérer de cette prison intérieure, on ne nait pas livre, on le devient »
+                      « Nous sommes les seuls à pouvoir se libérer de cette prison intérieure, on ne naît pas libre, on le devient »
                   </p>
                 </blockquote>
                 
                 <blockquote className="glass-box p-4 rounded border-l-4 border-teal-400">
                   <p className="glass-text-white italic leading-relaxed text-sm">
-                    « Il y aura toujours qu'un pour y trouver à redire »
+                      « Il y aura toujours quelqu'un pour y trouver à redire »
                   </p>
                 </blockquote>
                 
@@ -391,6 +478,7 @@ export function RessourcesSection() {
                   </p>
                 </blockquote>
               </div>
+              )}
             </div>
           </div>
         </div>
