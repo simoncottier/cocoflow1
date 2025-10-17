@@ -6,7 +6,7 @@ export function AboutSection() {
         <div className="glass-box-strong p-8 rounded-lg">
           <h3 className="text-2xl font-semibold mb-6 text-center text-white">Qui suis-je ?</h3>
           <div className="flex justify-center mb-6">
-            <div className="relative group w-1/2">
+            <div className="relative group w-2/3">
               <img 
                 src="/IMG_1625.jpg" 
                 alt="Photo professionnelle" 
