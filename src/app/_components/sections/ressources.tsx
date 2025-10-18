@@ -12,28 +12,30 @@ export function RessourcesSection() {
   return (
     <section className="mb-16">
       <div className="max-w-4xl mx-auto space-y-8 pt-8">
-        <h2 className="text-4xl font-bold text-white mb-8">Ressources</h2>
+        <h2 className="text-3xl font-bold text-white mb-8">Ressources</h2>
+        
         {/* Introduction */}
         <div className="glass-box-strong p-8 rounded-lg">
           <div className="mb-6">
             <h3 className="text-2xl font-semibold mb-4 text-white">Muscler votre esprit</h3>
           </div>
-          <p className="glass-text-white leading-relaxed text-center">
-            L'idée est de parvenir à muscler notre esprit pour nous décoller du mental, pour vivre au
-            présent. J'ai à cœur de partager les outils qui m'accompagnent au quotidien.
+          <p className="glass-text-white leading-relaxed">
+            L'idée est de parvenir à nous décoller du mental, pour vivre au présent.
+            <br />
+            J'ai à cœur de partager les outils qui m'accompagnent au quotidien.
           </p>
         </div>
 
         {/* Applications */}
         <div className="glass-box-strong p-8 rounded-lg">
-          <h3 className="text-2xl font-semibold mb-6 text-white">Applications recommandées</h3>
+          <h3 className="text-2xl font-semibold mb-6 text-white">Applications</h3>
           
           <div className="space-y-6">
             <div className="glass-box p-6 rounded-lg">
               <div className="flex items-start space-x-4">
                 <div className="flex-shrink-0">
                   <img 
-                    src="/conscience-pour-tous-logo.svg" 
+                    src="/consciencepourtous.jpeg" 
                     alt="Logo Conscience pour tous" 
                     className="w-16 h-16 object-cover rounded-lg"
                   />
@@ -41,7 +43,7 @@ export function RessourcesSection() {
               <div className="flex-1">
                   <h4 className="text-lg font-semibold mb-2 text-white">Conscience pour tous</h4>
                   <p className="glass-text-white leading-relaxed mb-3">
-                    Charlotte Hoefman a créé une cloche de pleine conscience comme un réveil
+                    Charlotte Hoefman a créé une cloche de pleine conscience, un réveil
                     qui nous ramène chaque jour à la conscience de soi, au moment présent.
                     L'occasion de se décoller du mental et de muscler son esprit quotidiennement.
                   </p>
@@ -61,7 +63,7 @@ export function RessourcesSection() {
               <div className="flex items-start space-x-4">
                 <div className="flex-shrink-0">
                   <img 
-                    src="/insight-timer-logo.svg" 
+                    src="/insighttimer.png" 
                     alt="Logo Insight Timer" 
                     className="w-16 h-16 object-cover rounded-lg"
                   />
@@ -274,7 +276,7 @@ export function RessourcesSection() {
                 <div className="flex items-start space-x-4">
                   <div className="flex-shrink-0">
                     <img 
-                      src="/energies-corps-subtils-cover.svg" 
+                      src="/energieetcorpssubtiles.jpeg" 
                       alt="Couverture Les énergies et les corps subtils" 
                       className="w-12 h-16 object-cover rounded"
                     />
@@ -345,7 +347,7 @@ export function RessourcesSection() {
                 <div className="flex items-start space-x-4">
                   <div className="flex-shrink-0">
                     <img 
-                      src="/ame-du-monde-cover.svg" 
+                      src="/amedumonde.jpeg" 
                       alt="Couverture L'âme du monde" 
                       className="w-12 h-16 object-cover rounded"
                     />

@@ -2,18 +2,38 @@ export function SoinsTarifsSection() {
   return (
     <section className="mb-16">
       <div className="max-w-4xl mx-auto space-y-8 pt-8">
-        <h2 className="text-4xl font-bold text-white mb-8">Soins et tarifs</h2>
+        <h2 className="text-3xl font-bold text-white mb-8">Soins et tarifs</h2>
         {/* Tarifs principaux */}
         <div className="glass-box-strong p-8 rounded-lg">
           <h3 className="text-2xl font-semibold mb-6 text-white">Tarifs</h3>
           
-          <div className="text-center mb-8">
+          <div className="text-center mb-6">
             <div className="inline-block p-6 rounded-lg glass-box max-w-md mx-auto">
               <h4 className="text-xl font-bold mb-2 text-white">Séance Complète</h4>
               <div className="text-3xl font-bold glass-text-white mb-2">140 CHF</div>
               <p className="glass-text-white opacity-75 mb-4">1h30</p>
               <p className="glass-text-white text-sm leading-relaxed">
-                Guérison de l'âme et du corps 
+                Guérison de l'âme et du corps
+              </p>
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="p-6 rounded-lg glass-box text-center">
+              <h4 className="text-xl font-bold mb-2 text-white">Coaching intuitif</h4>
+              <div className="text-3xl font-bold glass-text-white mb-2">120 CHF</div>
+              <p className="glass-text-white opacity-75 mb-4">6 mois</p>
+              <p className="glass-text-white text-sm leading-relaxed">
+                1 séance par mois
+              </p>
+            </div>
+
+            <div className="p-6 rounded-lg glass-box text-center">
+              <h4 className="text-xl font-bold mb-2 text-white">Coaching intuitif</h4>
+              <div className="text-3xl font-bold glass-text-white mb-2">105 CHF</div>
+              <p className="glass-text-white opacity-75 mb-4">12 mois</p>
+              <p className="glass-text-white text-sm leading-relaxed">
+                1 séance toutes les 6 semaines
               </p>
             </div>
           </div>
