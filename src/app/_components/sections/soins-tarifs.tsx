@@ -2,9 +2,10 @@ export function SoinsTarifsSection() {
   return (
     <section className="mb-16">
       <div className="max-w-4xl mx-auto space-y-8 pt-8">
+        <h2 className="text-4xl font-bold text-white mb-8">Soins et tarifs</h2>
         {/* Tarifs principaux */}
         <div className="glass-box-strong p-8 rounded-lg">
-          <h3 className="text-2xl font-semibold mb-6 text-center text-white">Tarifs</h3>
+          <h3 className="text-2xl font-semibold mb-6 text-white">Tarifs</h3>
           
           <div className="text-center mb-8">
             <div className="inline-block p-6 rounded-lg glass-box max-w-md mx-auto">
@@ -138,9 +139,9 @@ export function SoinsTarifsSection() {
         </div>
 
         {/* Contact */}
-        <div className="glass-box-strong p-8 rounded-lg text-center">
-          <h3 className="text-2xl font-semibold mb-4 text-white">Rendez-vous</h3>
-          <p className="glass-text-white mb-6 leading-relaxed">
+        <div className="glass-box-strong p-8 rounded-lg">
+          <h3 className="text-2xl font-semibold mb-6 text-white">Rendez-vous</h3>
+          <p className="glass-text-white mb-6 leading-relaxed text-center">
             Pour toute question ou pour planifier votre séance, n'hésitez pas à me contacter. 
             Je serai ravie d'échanger avec vous.
           </p>

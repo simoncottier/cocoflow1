@@ -12,9 +12,10 @@ export function RessourcesSection() {
   return (
     <section className="mb-16">
       <div className="max-w-4xl mx-auto space-y-8 pt-8">
+        <h2 className="text-4xl font-bold text-white mb-8">Ressources</h2>
         {/* Introduction */}
         <div className="glass-box-strong p-8 rounded-lg">
-          <div className="text-center mb-6">
+          <div className="mb-6">
             <h3 className="text-2xl font-semibold mb-4 text-white">Muscler votre esprit</h3>
           </div>
           <p className="glass-text-white leading-relaxed text-center">

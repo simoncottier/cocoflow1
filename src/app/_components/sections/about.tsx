@@ -2,9 +2,10 @@ export function AboutSection() {
   return (
     <section className="mb-16">
       <div className="max-w-4xl mx-auto space-y-8 pt-8">
+        <h2 className="text-4xl font-bold text-white mb-8">À propos</h2>
         {/* Photo Gallery Section */}
         <div className="glass-box-strong p-8 rounded-lg">
-          <h3 className="text-2xl font-semibold mb-6 text-center text-white">Qui suis-je ?</h3>
+          <h3 className="text-2xl font-semibold mb-6 text-white">Qui suis-je ?</h3>
           <div className="flex justify-center mb-6">
             <div className="relative group w-2/3">
               <img 
@@ -32,7 +33,7 @@ export function AboutSection() {
 
         {/* Specialties Section */}
         <div className="glass-box-strong p-8 rounded-lg">
-          <h3 className="text-2xl font-semibold mb-6 text-center text-white">Spécialités</h3>
+          <h3 className="text-2xl font-semibold mb-6 text-white">Spécialités</h3>
           <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div className="text-center">
               <h4 className="text-xl font-semibold mb-3 text-white">Soins énergétiques et magnétisme</h4>
@@ -51,7 +52,7 @@ export function AboutSection() {
 
         {/* Problématiques traitées avec bulles */}
         <div className="glass-box-strong p-8 rounded-lg relative overflow-hidden">
-          <h3 className="text-2xl font-semibold mb-6 text-center text-white">Ce que nous pouvons transformer ensemble</h3>
+          <h3 className="text-2xl font-semibold mb-6 text-white">Ce que nous pouvons transformer ensemble</h3>
           
           <div className="relative min-h-[300px] flex items-center justify-center">
             {/* Bulles flottantes */}
