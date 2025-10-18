@@ -15,7 +15,7 @@ export function Sidebar({ activeSection, onSectionChange }: SidebarProps) {
     { id: 'parcours', label: 'Parcours', icon: '' },
     { id: 'soins-tarifs', label: 'Soins et tarifs', icon: '' },
     { id: 'ressources', label: 'Ressources', icon: '' },
-    { id: 'contact', label: 'Contact & Rendez-vous', icon: '' },
+    { id: 'contact', label: 'Contact & rendez-vous', icon: '' },
   ];
 
   return (

@@ -11,9 +11,9 @@ export function SoinsTarifsSection() {
             <div className="inline-block p-6 rounded-lg glass-box max-w-md mx-auto">
               <h4 className="text-xl font-bold mb-2 text-white">Séance Complète</h4>
               <div className="text-3xl font-bold glass-text-white mb-2">140 CHF</div>
-              <p className="glass-text-white opacity-75 mb-4">Environ 1h30</p>
+              <p className="glass-text-white opacity-75 mb-4">1h30</p>
               <p className="glass-text-white text-sm leading-relaxed">
-                Guérison de l'âme et du corps - Accompagnement complet pour votre bien-être global
+                Guérison de l'âme et du corps 
               </p>
             </div>
           </div>
@@ -124,7 +124,9 @@ export function SoinsTarifsSection() {
               <span className="text-3xl mb-3 block">📅</span>
               <h4 className="font-semibold mb-2 text-white">Réservation</h4>
               <p className="glass-text-white text-sm mb-3">
-                Sur rendez-vous uniquement. Annulation gratuite jusqu'à 24h avant
+                Sur rendez-vous uniquement. 
+                </p><p className="glass-text-white text-sm mb-3">
+                Annulation gratuite jusqu'à 24h avant le rendez-vous
               </p>
               <a 
                 href="https://wa.me/41782592246" 
@@ -143,7 +145,6 @@ export function SoinsTarifsSection() {
           <h3 className="text-2xl font-semibold mb-6 text-white">Rendez-vous</h3>
           <p className="glass-text-white mb-6 leading-relaxed text-center">
             Pour toute question ou pour planifier votre séance, n'hésitez pas à me contacter. 
-            Je serai ravie d'échanger avec vous.
           </p>
           
           <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8">

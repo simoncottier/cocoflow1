@@ -20,19 +20,34 @@ export function ContactSection() {
     }));
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
+    setSubmitStatus('idle');
     
     try {
-      // Simulation d'envoi - à remplacer par votre API d'envoi d'email
-      await new Promise(resolve => setTimeout(resolve, 1000));
+      const form = e.currentTarget;
+      const formData = new FormData(form);
+      formData.append("access_key", "3bfb636a-12b6-46e8-a686-b5620c6a66fa");
+      formData.append("from_name", "CocoFlow Website");
+
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData
+      });
+
+      const data = await response.json();
       
-      // Pour l'instant, on simule un succès
-      console.log('Formulaire envoyé:', formData);
-      setSubmitStatus('success');
-      setFormData({ name: '', email: '', subject: '', message: '' });
+      if (data.success) {
+        setSubmitStatus('success');
+        setFormData({ name: '', email: '', subject: '', message: '' });
+        form.reset(); // Réinitialiser le formulaire HTML
+      } else {
+        console.error('Erreur Web3Forms:', data);
+        setSubmitStatus('error');
+      }
     } catch (error) {
+      console.error('Erreur:', error);
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);
