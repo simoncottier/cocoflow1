@@ -58,13 +58,17 @@ export function ContactSection() {
     <section className="mb-16">
       <div className="max-w-4xl mx-auto space-y-8 pt-8">
         <h2 className="text-3xl font-bold text-white mb-8">Contact & Rendez-vous</h2>
-        {/* Informations de contact */}
+
+        {/* Horaires et informations pratiques */}
         <div className="glass-box-strong p-8 rounded-lg">
-          <div className="grid md:grid-cols-3 gap-8">
+          <h3 className="text-2xl font-semibold mb-6 text-white">Informations pratiques</h3>
+          
+          {/* Contact Info */}
+          <div className="grid md:grid-cols-3 gap-6 mb-8">
             {/* Adresse */}
             <div className="text-center glass-box p-6 rounded-lg">
               <h4 className="text-lg font-semibold mb-3 text-white">Adresse</h4>
-              <div className="glass-text-white space-y-1">
+              <div className="glass-text-white space-y-1 mb-3">
                 <p>Chemin du Pré Jaquet 1A</p>
                 <p>1032 Romanel sur Lausanne</p>
               </div>
@@ -72,7 +76,7 @@ export function ContactSection() {
                 href="https://maps.google.com/?q=Chemin+du+Pré+Jaquet+1A+1032+Romanel+sur+Lausanne" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-flex items-center mt-3 px-4 py-2 rounded-lg glass-box hover:glass-box-strong transition-all duration-300"
+                className="inline-flex items-center px-4 py-2 rounded-lg glass-box hover:glass-box-strong transition-all duration-300"
               >
                 <span className="text-white text-sm font-medium">Voir sur la carte</span>
               </a>
@@ -97,7 +101,7 @@ export function ContactSection() {
               <div className="flex flex-col space-y-2">
                 <a 
                   href="tel:+41782592246" 
-                  className="inline-flex items-center px-4 py-2 rounded-lg glass-box hover:glass-box-strong transition-all duration-300"
+                  className="inline-flex items-center justify-center px-4 py-2 rounded-lg glass-box hover:glass-box-strong transition-all duration-300"
                 >
                   <span className="text-white text-sm font-medium">Appeler</span>
                 </a>
@@ -105,10 +109,36 @@ export function ContactSection() {
                   href="https://wa.me/41782592246" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="inline-flex items-center px-4 py-2 rounded-lg glass-box hover:glass-box-strong transition-all duration-300"
+                  className="inline-flex items-center justify-center px-4 py-2 rounded-lg glass-box hover:glass-box-strong transition-all duration-300"
                 >
                   <span className="text-white text-sm font-medium">WhatsApp</span>
                 </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Disponibilités et Accès */}
+          <div className="grid md:grid-cols-2 gap-8">
+            <div>
+              <div className="flex items-center mb-4">
+                <h4 className="text-lg font-semibold text-white">Disponibilités</h4>
+              </div>
+              <div className="glass-text-white space-y-2">
+                <p>• Rendez-vous sur demande</p>
+                <p>• Séances en semaine et weekend</p>
+                <p>• Réponse aux messages sous 24h</p>
+                <p>• Première consultation téléphonique gratuite (15 min)</p>
+              </div>
+            </div>
+            
+            <div>
+              <div className="flex items-center mb-4">
+                <h4 className="text-lg font-semibold text-white">Accès</h4>
+              </div>
+              <div className="glass-text-white space-y-2">
+                <p>• Parking gratuit disponible</p>
+                <p>• LEB arrêt Romanel-S-Lausanne, à 2 minutes de la gare</p>
+                <p>• À 10 minutes de Lausanne</p>
               </div>
             </div>
           </div>
@@ -222,36 +252,6 @@ export function ContactSection() {
           <p className="text-sm glass-text-white opacity-75 text-center mt-6">
             * Champs obligatoires. Vos informations personnelles sont protégées et ne seront jamais partagées.
           </p>
-        </div>
-
-        {/* Horaires et informations pratiques */}
-        <div className="glass-box-strong p-8 rounded-lg">
-          <h3 className="text-2xl font-semibold mb-6 text-white">Informations pratiques</h3>
-          
-          <div className="grid md:grid-cols-2 gap-8">
-            <div>
-              <div className="flex items-center mb-4">
-                <h4 className="text-lg font-semibold text-white">Disponibilités</h4>
-              </div>
-              <div className="glass-text-white space-y-2">
-                <p>• Rendez-vous sur demande</p>
-                <p>• Séances en semaine et weekend</p>
-                <p>• Réponse aux messages sous 24h</p>
-                <p>• Première consultation téléphonique gratuite (15 min)</p>
-              </div>
-            </div>
-            
-            <div>
-              <div className="flex items-center mb-4">
-                <h4 className="text-lg font-semibold text-white">Accès</h4>
-              </div>
-              <div className="glass-text-white space-y-2">
-                <p>• Parking gratuit disponible</p>
-                <p>• Transports publics : Bus ligne 16 et LEB</p>
-                <p>• À 10 minutes de Lausanne</p>
-              </div>
-            </div>
-          </div>
         </div>
 
       </div>

@@ -10,8 +10,8 @@ export function SoinsTarifsSection() {
           <div className="text-center mb-6">
             <div className="inline-block p-6 rounded-lg glass-box max-w-md mx-auto">
               <h4 className="text-xl font-bold mb-2 text-white">Séance Complète</h4>
-              <div className="text-3xl font-bold glass-text-white mb-2">140 CHF</div>
-              <p className="glass-text-white opacity-75 mb-4">1h30</p>
+              <div className="text-3xl font-bold glass-text-white mb-2">90 CHF</div>
+              <p className="glass-text-white opacity-75 mb-4">1 heure</p>
               <p className="glass-text-white text-sm leading-relaxed">
                 Guérison de l'âme et du corps
               </p>
@@ -21,7 +21,7 @@ export function SoinsTarifsSection() {
           <div className="grid md:grid-cols-2 gap-6">
             <div className="p-6 rounded-lg glass-box text-center">
               <h4 className="text-xl font-bold mb-2 text-white">Coaching intuitif</h4>
-              <div className="text-3xl font-bold glass-text-white mb-2">120 CHF</div>
+              <div className="text-3xl font-bold glass-text-white mb-2">80 CHF</div>
               <p className="glass-text-white opacity-75 mb-4">6 mois</p>
               <p className="glass-text-white text-sm leading-relaxed">
                 1 séance par mois
@@ -30,7 +30,7 @@ export function SoinsTarifsSection() {
 
             <div className="p-6 rounded-lg glass-box text-center">
               <h4 className="text-xl font-bold mb-2 text-white">Coaching intuitif</h4>
-              <div className="text-3xl font-bold glass-text-white mb-2">105 CHF</div>
+              <div className="text-3xl font-bold glass-text-white mb-2">75 CHF</div>
               <p className="glass-text-white opacity-75 mb-4">12 mois</p>
               <p className="glass-text-white text-sm leading-relaxed">
                 1 séance toutes les 6 semaines

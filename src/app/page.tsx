@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from 'react';
+import Image from 'next/image';
 import Container from "@/app/_components/container";
 import { Sidebar } from "@/app/_components/sidebar";
 import { AboutSection } from "@/app/_components/sections/about";
@@ -36,6 +37,16 @@ export default function Index() {
           <div className="pt-8 lg:pt-8">
             {/* Titre CocoFlow */}
             <div className="text-center mb-4 lg:mb-6">
+              <div className="flex justify-center mb-4">
+                <Image
+                  src="/cocoflow-logo.png"
+                  alt="CocoFlow Logo"
+                  width={120}
+                  height={120}
+                  className="object-contain"
+                  priority
+                />
+              </div>
               <h1 className="font-ephesis text-6xl lg:text-8xl text-white mb-2 tracking-wide">
                 CocoFlow
               </h1>
