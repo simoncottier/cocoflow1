@@ -6,12 +6,19 @@ export function AboutSection() {
         {/* Photo Gallery Section */}
         <div className="glass-box-strong p-8 rounded-lg">
           <h3 className="text-2xl font-semibold mb-6 text-white">Qui suis-je ?</h3>
-          <div className="flex justify-start mb-6">
-            <div className="relative group w-1/3">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+            <div className="relative group h-[400px]">
               <img 
                 src="/IMG_1625.jpg" 
                 alt="Photo professionnelle" 
-                className="w-full object-contain rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+                className="w-full h-full object-cover rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+              />
+            </div>
+            <div className="relative group h-[400px]">
+              <img 
+                src="/room.jpg" 
+                alt="Espace de soin" 
+                className="w-full h-full object-cover rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
               />
             </div>
           </div>
