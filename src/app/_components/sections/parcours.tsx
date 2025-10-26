@@ -4,7 +4,7 @@ export function ParcoursSection() {
       <div className="max-w-4xl mx-auto pt-8">
         <h2 className="text-3xl font-bold text-white mb-8">Parcours</h2>
         <div className="glass-box-strong p-8 rounded-lg">
-          <div className="glass-text-white leading-relaxed space-y-4">
+          <div className="glass-text-white leading-loose space-y-6">
             <p>
               Tout a commencé en 2014, lors d'un choc familial qui a profondément bouleversé ma vie. Un thérapeute a alors croisé ma route. Grâce à lui, j'ai compris que je faisais partie de quelque chose de plus grand que moi.
             </p>

@@ -6,19 +6,12 @@ export function AboutSection() {
         {/* Photo Gallery Section */}
         <div className="glass-box-strong p-8 rounded-lg">
           <h3 className="text-2xl font-semibold mb-6 text-white">Qui suis-je ?</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-            <div className="relative group h-[400px]">
+          <div className="flex justify-center mb-6">
+            <div className="relative group h-[300px] w-full max-w-md">
               <img 
                 src="/IMG_1625.jpg" 
                 alt="Photo professionnelle" 
-                className="w-full h-full object-cover rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
-              />
-            </div>
-            <div className="relative group h-[400px]">
-              <img 
-                src="/room.jpg" 
-                alt="Espace de soin" 
-                className="w-full h-full object-cover rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+                className="w-full h-full object-contain"
               />
             </div>
           </div>
@@ -33,9 +26,18 @@ export function AboutSection() {
           <p className="glass-text-white leading-relaxed mb-4">
             Mon approche holistique considère l'être dans sa globalité : corps, mental et esprit.
           </p>
-          <p className="glass-text-white leading-relaxed">
+          <p className="glass-text-white leading-relaxed mb-6">
             Nous sommes tous uniques, j'adapte mes soins selon vos besoins, en suivant votre rythme, dans un cadre bienveillant et sans jugement.
           </p>
+          <div className="flex justify-center mt-6">
+            <div className="relative group h-[300px] w-full max-w-md">
+              <img 
+                src="/room.jpg" 
+                alt="Espace de soin" 
+                className="w-full h-full object-cover rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+              />
+            </div>
+          </div>
         </div>
 
         {/* Specialties Section */}
