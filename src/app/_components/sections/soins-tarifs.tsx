@@ -1,8 +1,47 @@
+"use client";
+
+import { useState } from 'react';
+
 export function SoinsTarifsSection() {
+  const [showPromo, setShowPromo] = useState(true);
+
   return (
     <section className="mb-16">
       <div className="max-w-4xl mx-auto space-y-8 pt-8">
         <h2 className="text-3xl font-bold text-white mb-8">Soins et tarifs</h2>
+        
+        {/* Pop-up promotionnel */}
+        {showPromo && (
+          <div className="relative mb-6 animate-pulse">
+            <div 
+              className="bg-gradient-to-r from-pink-500 via-orange-500 to-yellow-500 p-6 rounded-lg shadow-2xl border-4 border-white relative overflow-hidden"
+              style={{
+                background: 'linear-gradient(135deg, #ff6b6b 0%, #ffa500 50%, #ffd700 100%)',
+                boxShadow: '0 0 30px rgba(255, 107, 107, 0.6), 0 0 60px rgba(255, 165, 0, 0.4)'
+              }}
+            >
+              <button
+                onClick={() => setShowPromo(false)}
+                className="absolute top-2 right-2 text-white hover:text-gray-200 font-bold text-xl w-8 h-8 flex items-center justify-center rounded-full hover:bg-white/20 transition-all"
+                aria-label="Fermer"
+              >
+                ×
+              </button>
+              <div className="text-center">
+                <h3 className="text-2xl font-bold text-white mb-2 drop-shadow-lg">
+                  OFFRE SPÉCIALE NOËL
+                </h3>
+                <p className="text-xl font-bold text-white mb-2 drop-shadow-md">
+                  Première séance à <span className="text-3xl">50 CHF</span>
+                </p>
+                <p className="text-white font-semibold drop-shadow-md">
+                  Offre valable jusqu'au 30 janvier
+                </p>
+              </div>
+            </div>
+          </div>
+        )}
+
         {/* Tarifs principaux */}
         <div className="glass-box-strong p-8 rounded-lg">
           <h3 className="text-2xl font-semibold mb-6 text-white">Tarifs</h3>
